@@ -1,25 +1,49 @@
 "use client";
 
-import { useEffect, useId, useState, type FormEvent } from "react";
+import { useEffect, useId, useState } from "react";
+import { useForm } from "react-hook-form";
 import { AnimatePresence, motion } from "motion/react";
 import { X } from "lucide-react";
 import { Button } from "@/components/ui/Button";
+import { cn } from "@/lib/cn";
 
 type RequestCallbackModalProps = {
   open: boolean;
   onClose: () => void;
 };
 
+type CallbackFormValues = {
+  firstName: string;
+  lastName: string;
+  email: string;
+  phone: string;
+};
+
+const MAIL_ENDPOINT = "/mail.php";
+
 const fieldClassName =
   "w-full rounded-xl border border-black/10 bg-white px-3.5 py-2.5 text-sm text-[var(--th-heading)] outline-none transition-colors placeholder:text-black/35 focus:border-black/25 focus:ring-2 focus:ring-black/5";
 
+const fieldErrorClassName =
+  "border-red-400 focus:border-red-400 focus:ring-red-100";
+
 function CallbackDialog({ onClose }: { onClose: () => void }) {
   const titleId = useId();
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors, isSubmitting },
+  } = useForm<CallbackFormValues>({
+    defaultValues: {
+      firstName: "",
+      lastName: "",
+      email: "",
+      phone: "",
+    },
+  });
 
   useEffect(() => {
     const previousOverflow = document.body.style.overflow;
@@ -36,9 +60,37 @@ function CallbackDialog({ onClose }: { onClose: () => void }) {
     };
   }, [onClose]);
 
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    setSubmitted(true);
+  const onSubmit = async (values: CallbackFormValues) => {
+    setSubmitError(null);
+
+    const body = new FormData();
+    body.append("formType", "callback");
+    body.append("firstName", values.firstName.trim());
+    body.append("lastName", values.lastName.trim());
+    body.append("email", values.email.trim());
+    body.append("phone", values.phone.trim());
+
+    try {
+      const response = await fetch(MAIL_ENDPOINT, {
+        method: "POST",
+        body,
+      });
+
+      const payload = (await response.json().catch(() => null)) as {
+        success?: boolean;
+        message?: string;
+        error?: string;
+      } | null;
+
+      if (!response.ok || !payload?.success) {
+        setSubmitError(payload?.error ?? "Failed to send request. Please try again.");
+        return;
+      }
+
+      setSubmitted(true);
+    } catch {
+      setSubmitError("Network error. Please try again.");
+    }
   };
 
   return (
@@ -107,35 +159,47 @@ function CallbackDialog({ onClose }: { onClose: () => void }) {
             </Button>
           </div>
         ) : (
-          <form onSubmit={handleSubmit} className="space-y-3.5">
+          <form onSubmit={handleSubmit(onSubmit)} className="space-y-3.5" noValidate>
             <div className="grid gap-3.5 sm:grid-cols-2">
               <label className="block text-left">
                 <span className="mb-1.5 block text-xs font-medium text-black/55">
                   First Name
                 </span>
                 <input
-                  required
-                  name="firstName"
                   autoComplete="given-name"
-                  value={firstName}
-                  onChange={(e) => setFirstName(e.target.value)}
-                  className={fieldClassName}
                   placeholder="Jane"
+                  className={cn(fieldClassName, errors.firstName && fieldErrorClassName)}
+                  {...register("firstName", {
+                    required: "First name is required",
+                    validate: (value) =>
+                      value.trim().length > 0 || "First name is required",
+                  })}
                 />
+                {errors.firstName ? (
+                  <span className="mt-1 block text-xs text-red-500">
+                    {errors.firstName.message}
+                  </span>
+                ) : null}
               </label>
               <label className="block text-left">
                 <span className="mb-1.5 block text-xs font-medium text-black/55">
                   Last Name
                 </span>
                 <input
-                  required
-                  name="lastName"
                   autoComplete="family-name"
-                  value={lastName}
-                  onChange={(e) => setLastName(e.target.value)}
-                  className={fieldClassName}
                   placeholder="Doe"
+                  className={cn(fieldClassName, errors.lastName && fieldErrorClassName)}
+                  {...register("lastName", {
+                    required: "Last name is required",
+                    validate: (value) =>
+                      value.trim().length > 0 || "Last name is required",
+                  })}
                 />
+                {errors.lastName ? (
+                  <span className="mt-1 block text-xs text-red-500">
+                    {errors.lastName.message}
+                  </span>
+                ) : null}
               </label>
             </div>
 
@@ -144,15 +208,23 @@ function CallbackDialog({ onClose }: { onClose: () => void }) {
                 Email
               </span>
               <input
-                required
                 type="email"
-                name="email"
                 autoComplete="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className={fieldClassName}
                 placeholder="jane@company.com"
+                className={cn(fieldClassName, errors.email && fieldErrorClassName)}
+                {...register("email", {
+                  required: "Email is required",
+                  pattern: {
+                    value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+                    message: "Enter a valid email",
+                  },
+                })}
               />
+              {errors.email ? (
+                <span className="mt-1 block text-xs text-red-500">
+                  {errors.email.message}
+                </span>
+              ) : null}
             </label>
 
             <label className="block text-left">
@@ -160,24 +232,35 @@ function CallbackDialog({ onClose }: { onClose: () => void }) {
                 Phone
               </span>
               <input
-                required
                 type="tel"
-                name="phone"
                 autoComplete="tel"
-                value={phone}
-                onChange={(e) => setPhone(e.target.value)}
-                className={fieldClassName}
                 placeholder="+1 555 000 0000"
+                className={cn(fieldClassName, errors.phone && fieldErrorClassName)}
+                {...register("phone", {
+                  required: "Phone is required",
+                  validate: (value) =>
+                    value.trim().length > 0 || "Phone is required",
+                })}
               />
+              {errors.phone ? (
+                <span className="mt-1 block text-xs text-red-500">
+                  {errors.phone.message}
+                </span>
+              ) : null}
             </label>
+
+            {submitError ? (
+              <p className="text-sm text-red-500">{submitError}</p>
+            ) : null}
 
             <Button
               type="submit"
               variant="signup"
               size="lg"
               className="mt-2 w-full rounded-full"
+              disabled={isSubmitting}
             >
-              Submit Request
+              {isSubmitting ? "Sending..." : "Submit Request"}
             </Button>
           </form>
         )}
