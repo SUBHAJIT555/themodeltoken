@@ -1,0 +1,104 @@
+{
+  "status": 200,
+  "title": "Privacy agreement - Tokenhot",
+  "h1": [
+    "Privacy agreement"
+  ],
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Privacy agreement"
+    },
+    {
+      "tag": "H2",
+      "text": "Overview"
+    },
+    {
+      "tag": "H3",
+      "text": "1. Information we collect"
+    },
+    {
+      "tag": "H3",
+      "text": "2. How we use your information"
+    },
+    {
+      "tag": "H3",
+      "text": "3. Information sharing and third-party processing"
+    },
+    {
+      "tag": "H3",
+      "text": "4. Your rights and obligations"
+    },
+    {
+      "tag": "H3",
+      "text": "5. Updates to the Privacy Agreement"
+    },
+    {
+      "tag": "H3",
+      "text": "6. Contact us"
+    }
+  ],
+  "styles": {
+    "url": "https://docs.tokenhot.ai/2048221m0",
+    "bodyBg": "rgb(255, 255, 255)",
+    "h1": {
+      "label": "h1",
+      "fontSize": "32px",
+      "fontWeight": "600",
+      "fontFamily": "inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "lineHeight": "40px",
+      "color": "rgb(52, 64, 84)",
+      "letterSpacing": "normal",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "width": 268.546875,
+      "maxWidth": "none",
+      "padding": "0px"
+    },
+    "h2": {
+      "label": "h2",
+      "fontSize": "24px",
+      "fontWeight": "600",
+      "fontFamily": "inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "lineHeight": "30px",
+      "color": "rgb(52, 64, 84)",
+      "letterSpacing": "normal",
+      "marginTop": "48px",
+      "marginBottom": "16px",
+      "width": 636,
+      "maxWidth": "none",
+      "padding": "0px"
+    },
+    "p": null,
+    "a": {
+      "label": "a",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "fontFamily": "inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "lineHeight": "16.1px",
+      "color": "rgb(52, 64, 84)",
+      "letterSpacing": "normal",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "width": 40,
+      "maxWidth": "none",
+      "padding": "0px"
+    },
+    "content": {
+      "label": "content",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", roboto, \"Helvetica Neue\", arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "lineHeight": "28px",
+      "color": "rgb(52, 64, 84)",
+      "letterSpacing": "normal",
+      "marginTop": "0px",
+      "marginBottom": "0px",
+      "width": 636,
+      "maxWidth": "none",
+      "padding": "0px"
+    },
+    "contentWidth": 636
+  },
+  "classesTried": []
+}

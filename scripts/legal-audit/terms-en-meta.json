@@ -1,0 +1,18 @@
+{
+  "status": 404,
+  "title": "Tokenhot",
+  "headings": [],
+  "styles": {
+    "url": "https://docs.tokenhot.ai/english/terms",
+    "h1": null,
+    "p": null,
+    "container": {
+      "maxWidth": "none",
+      "width": 1440,
+      "padding": "0px",
+      "background": "rgb(255, 255, 255)"
+    },
+    "bodyBg": "rgb(255, 255, 255)"
+  },
+  "url": "https://docs.tokenhot.ai/english/terms"
+}

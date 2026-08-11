@@ -1,0 +1,165 @@
+/*
+  Design tokens for TheModelToken UI.
+  Layout geometry tokens use the --th-* namespace (theme).
+*/
+
+:root {
+  /* ---------- brand ---------- */
+  --brand-accent: #fa5902;
+
+  /* ---------- backgrounds ---------- */
+  --th-bg: #f7f7f7;
+  --th-bg-theme: #f5f5f5;
+  --th-bg-elevated: #ffffff;
+  --th-bg-card: #ffffff;
+  --th-bg-footer: #1a1a1a;
+  --th-bg-nav: rgb(255 255 255 / 0.9);
+  --th-bg-announcement: #fa5902;
+  --th-noise-dot: rgb(0 0 0 / 0.12);
+
+  /* ---------- text ---------- */
+  --th-text: #18181b;
+  --th-text-primary: #212529;
+  --th-text-secondary: rgb(33 37 41 / 0.8);
+  --th-text-muted: rgb(33 37 41 / 0.7);
+  --th-text-muted-theme: #71717a;
+  --th-text-on-accent: #ffffff;
+  --th-text-footer: #ffffff;
+  --th-text-footer-muted: rgb(255 255 255 / 0.7);
+  --th-text-footer-faint: rgb(255 255 255 / 0.5);
+  --th-text-footer-heading: rgb(255 255 255 / 0.4);
+  --th-heading: oklch(0.2103 0.0059 285.89);
+
+  /* ---------- accent / brand ---------- */
+  --th-accent: var(--brand-accent);
+  --th-accent-p3: color(display-p3 0.908 0.393 0.168);
+  --th-accent-foreground: #f7f7f7;
+  --th-accent-hover: color-mix(in oklab, var(--th-accent) 90%, black);
+  /* About page accent (live /about computed) */
+  --th-about-accent: #ff4700;
+  --th-about-accent-hover: #e64000;
+  --th-about-bg: #fafafa;
+  --th-about-discord: #5865f2;
+  --th-about-discord-hover: #4752c4;
+  --th-signup: rgb(33 37 41);
+  --th-status: #05df72;
+
+  /* Homepage section / card surfaces (measured) */
+  --th-card-yellow: #f8da49;
+  --th-card-green: #61d263;
+  --th-card-magenta: #ec70f8;
+  --th-card-code: #333333;
+  --th-benefit-lime: #cad810;
+  --th-benefit-blue: #429dff;
+  --th-benefit-orange: #ff7615;
+  --th-cta-from: #e8450e;
+  --th-cta-to: #fa5902;
+  --th-code-keyword: #ffac60;
+  --th-code-string: #3fa4ff;
+  --th-code-fg: #f2f2f2;
+
+  /* ---------- borders ---------- */
+  --th-border: rgb(0 0 0 / 0.1);
+  --th-border-strong: rgb(0 0 0 / 0.15);
+  --th-border-footer: rgb(255 255 255 / 0.1);
+  --th-border-footer-hover: rgb(255 255 255 / 0.25);
+  --th-card-border: #ffffff26;
+
+  /* ---------- surfaces / blur ---------- */
+  --th-surface: #ffffff;
+  --th-surface-secondary: #efeff0;
+  --th-surface-tertiary: #eaeaeb;
+  --th-backdrop-blur-nav: 24px;
+
+  /* ---------- layout ---------- */
+  --th-container: 1280px; /* max-w-7xl */
+  --th-nav-max: 992px;
+  --th-navbar-max: 960px;
+  --th-gutter: 16px;
+  --th-gutter-sm: 20px;
+  --th-gutter-md: 24px;
+  --th-banner-height: 36px;
+  --th-nav-gap: 4px;
+  --th-nav-height: 56px;
+  --th-nav-header-height: 54px;
+  /* Floating nav sits just under the announcement banner */
+  --th-nav-shell-top: calc(var(--th-banner-height) + var(--th-nav-gap));
+  --th-nav-top: calc(var(--th-banner-height) + 20px);
+  /* Space reserved so page content clears fixed banner + nav */
+  --th-header-clearance: calc(
+    var(--th-nav-shell-top) + var(--th-nav-height) + 20px
+  );
+  --th-content-offset: var(--th-header-clearance);
+
+  /* ---------- radius ---------- */
+  --th-radius: 0.5rem; /* 8px theme base */
+  --th-radius-button: 24px;
+  --th-radius-nav: 28px;
+  --th-radius-card: 12px;
+  --th-radius-card-glow: 28px;
+  --th-radius-badge: 9999px;
+
+  /* ---------- typography ---------- */
+  --th-font-sans: var(--font-sans), "Inter", ui-sans-serif, system-ui, sans-serif;
+  --th-font-serif: var(--font-serif), "EB Garamond", ui-serif, Georgia, serif;
+  --th-font-mono: var(--font-geist-mono), "Geist Mono", ui-monospace, monospace;
+  --th-body-size: 16px;
+  --th-body-leading: 24px;
+  --th-nav-size: 14px;
+  --th-nav-leading: 20px;
+  --th-h1-size: 80px;
+  --th-h1-leading: 100px;
+  --th-h1-weight: 500;
+  --th-h2-size: clamp(36px, 6vw, 60px);
+  --th-h2-leading: 1.05;
+
+  /* ---------- buttons ---------- */
+  --th-button-height-lg: 40px;
+  --th-button-height-sm: 32px;
+  --th-button-px-lg: 16px;
+  --th-button-px-sm: 12px;
+  --th-button-weight: 500;
+
+  /* ---------- shadows ---------- */
+  --th-shadow-card: 0 2px 4px 0 rgb(0 0 0 / 0.04), 0 1px 2px 0 rgb(0 0 0 / 0.06),
+    0 0 1px 0 rgb(0 0 0 / 0.06);
+  --th-shadow-surface: 0 2px 4px 0 #0000000a, 0 1px 2px 0 #0000000f, 0 0 1px 0 #0000000f;
+  --th-shadow-nav: none;
+
+  /* ---------- motion ---------- */
+  --th-ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --th-duration-nav: 200ms;
+  --th-duration-shell: 500ms;
+
+  /* ---------- breakpoints (observed) ---------- */
+  --th-bp-sm: 640px;
+  --th-bp-md: 768px;
+  --th-bp-lg: 1024px;
+  --th-bp-xl: 1280px;
+
+  /* Bridge to existing utility usage during migration */
+  --background: var(--th-bg);
+  --foreground: var(--th-text);
+  --muted: var(--th-text-muted-theme);
+  --surface: var(--th-surface);
+  --surface-elevated: var(--th-surface-secondary);
+  --border: var(--th-border);
+  --primary: var(--th-accent);
+  --primary-foreground: var(--th-text-on-accent);
+  --radius: var(--th-radius);
+  --accent: var(--th-accent);
+  --accent-foreground: var(--th-accent-foreground);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --th-nav-gap: 28px;
+    --th-nav-height: 66px;
+    --th-nav-header-height: 64px;
+    --th-nav-shell-top: calc(var(--th-banner-height) + 12px);
+    --th-nav-top: calc(var(--th-banner-height) + var(--th-nav-gap));
+    --th-header-clearance: calc(
+      var(--th-nav-top) + var(--th-nav-height) + 36px
+    );
+  }
+}

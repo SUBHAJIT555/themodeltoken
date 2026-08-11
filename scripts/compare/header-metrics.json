@@ -1,0 +1,76 @@
+{
+  "original": {
+    "label": "original",
+    "bodyBg": "rgb(247, 247, 247)",
+    "banner": {
+      "x": 0,
+      "y": 0,
+      "w": 1434,
+      "h": 36,
+      "bg": "rgb(250, 89, 2)",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "Inter, \"Inter Fallback\"",
+      "borderRadius": "0px",
+      "backdropFilter": "none"
+    },
+    "nav": {
+      "x": 241,
+      "y": 64,
+      "w": 952,
+      "h": 66,
+      "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.9)",
+      "color": "lab(8.34178 0.607349 -2.12998)",
+      "fontFamily": "Inter, \"Inter Fallback\"",
+      "borderRadius": "28px",
+      "backdropFilter": "blur(24px)"
+    },
+    "logo": {
+      "x": 262,
+      "y": 79.5,
+      "w": 117,
+      "h": 35,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Inter, \"Inter Fallback\"",
+      "borderRadius": "0px",
+      "backdropFilter": "none"
+    }
+  },
+  "local": {
+    "label": "local",
+    "bodyBg": "rgb(247, 247, 247)",
+    "banner": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 36,
+      "bg": "rgb(250, 89, 2)",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "Inter, \"Inter Fallback\", Inter, ui-sans-serif, system-ui, sans-serif",
+      "borderRadius": "0px",
+      "backdropFilter": "none"
+    },
+    "nav": {
+      "x": 244,
+      "y": 64,
+      "w": 952,
+      "h": 66,
+      "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.9)",
+      "color": "lab(8.34178 0.607349 -2.12998)",
+      "fontFamily": "Inter, \"Inter Fallback\", Inter, ui-sans-serif, system-ui, sans-serif",
+      "borderRadius": "28px",
+      "backdropFilter": "blur(24px)"
+    },
+    "logo": {
+      "x": 265,
+      "y": 79.5,
+      "w": 117,
+      "h": 35,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0)",
+      "fontFamily": "Inter, \"Inter Fallback\", Inter, ui-sans-serif, system-ui, sans-serif",
+      "borderRadius": "0px",
+      "backdropFilter": "none"
+    }
+  }
+}

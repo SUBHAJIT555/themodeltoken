@@ -1,0 +1,683 @@
+{
+  "sectionSummaries": [
+    {
+      "idx": 0,
+      "className": " relative min-h-[550px] sm:min-h-[900px] overflow-hidden bg-[#f7f7f7] bg-[oklch(0.9702_0_0)] px-4 pb-16 pt-[120px] text-left text-[oklch(0.2103_0.0059_285.89)] sm:px-6 sm:pb-20 sm:pt-[140px] lg:pt-[180px]",
+      "top": 0,
+      "height": 900,
+      "text": "Doubao\n1.8s\nUltra-Low\nLatency\nvia\nDedicated\nEnterprise\nLines\nFrontier\nIntelligence.Without\nthe\nFrontier\nPrice.\nAccess\nOpenAI\nand\nClaude\nmodels\nfrom\none\nunified\nendpoint.\nOr,\nslash\nyour\nAPI\nbills\nby\n90%\nby\ndropping\nin\ntop-tier\nalternatives\nlike\nDeepSeek—with\nzero\ncode\nchanges.\nGenerate\nAPI\nKey\nView\nDocs",
+      "cards": [
+        {
+          "className": "hidden sm:block hero-card-swap pointer-events-none absolute left-1/2 z-[2] h-[720px] w-[680px] scale-75 sm:scale-100 opacity-100 -bottom-16 sm:-bottom-40 lg:-bottom-53 origin-bottom ml-[-500px] sm:ml-[-340px] lg:ml-[-250",
+          "text": "Doubao",
+          "w": 680,
+          "h": 720,
+          "bg": "rgba(0, 0, 0, 0)",
+          "br": "0px",
+          "border": "0px lab(0 0 0 / 0)",
+          "padding": "0px 0px 0px 0px"
+        },
+        {
+          "className": "card-swap-container",
+          "text": "Doubao",
+          "w": 560,
+          "h": 448,
+          "bg": "rgba(0, 0, 0, 0)",
+          "br": "0px",
+          "border": "0px lab(0 0 0 / 0)",
+          "padding": "0px 0px 0px 0px"
+        },
+        {
+          "className": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+          "text": "",
+          "w": 560,
+          "h": 567,
+          "bg": "rgb(0, 0, 0)",
+          "br": "12px",
+          "border": "1px rgb(255, 255, 255)",
+          "padding": "24px 24px 24px 24px"
+        },
+        {
+          "className": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+          "text": "",
+          "w": 560,
+          "h": 567,
+          "bg": "rgb(0, 0, 0)",
+          "br": "12px",
+          "border": "1px rgb(255, 255, 255)",
+          "padding": "24px 24px 24px 24px"
+        },
+        {
+          "className": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+          "text": "",
+          "w": 560,
+          "h": 567,
+          "bg": "rgb(0, 0, 0)",
+          "br": "12px",
+          "border": "1px rgb(255, 255, 255)",
+          "padding": "24px 24px 24px 24px"
+        },
+        {
+          "className": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+          "text": "",
+          "w": 560,
+          "h": 567,
+          "bg": "rgb(0, 0, 0)",
+          "br": "12px",
+          "border": "1px rgb(255, 255, 255)",
+          "padding": "24px 24px 24px 24px"
+        },
+        {
+          "className": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+          "text": "Doubao",
+          "w": 560,
+          "h": 567,
+          "bg": "rgb(0, 0, 0)",
+          "br": "12px",
+          "border": "1px rgb(255, 255, 255)",
+          "padding": "24px 24px 24px 24px"
+        },
+        {
+          "className": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+          "text": "",
+          "w": 560,
+          "h": 567,
+          "bg": "rgb(0, 0, 0)",
+          "br": "12px",
+          "border": "1px rgb(255, 255, 255)",
+          "padding": "24px 24px 24px 24px"
+        },
+        {
+          "className": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+          "text": "",
+          "w": 560,
+          "h": 567,
+          "bg": "rgb(0, 0, 0)",
+          "br": "12px",
+          "border": "1px rgb(255, 255, 255)",
+          "padding": "24px 24px 24px 24px"
+        }
+      ],
+      "labels": [
+        {
+          "text": "1.8s Ultra-Low Latency via Dedicated Enterprise Lines",
+          "className": ""
+        },
+        {
+          "text": "1.8s Ultra-Low Latency via Dedicated Enterprise Lines",
+          "className": "relative overflow-hidden bg-transparent p-[1px] mb-3 inline-flex h-auto w-auto text-xs sm:mb-6"
+        },
+        {
+          "text": "1.8s Ultra-Low Latency via Dedicated Enterprise Lines",
+          "className": "relative flex h-full w-full items-center justify-center antialiased border border-black/8 bg-white/80 px-4 py-2 text-xs font-semibold tracking-wide text-[rgba(33,37,41,0.75)] backd"
+        },
+        {
+          "text": "1.8s Ultra-Low Latency via Dedicated Enterprise Lines",
+          "className": ""
+        },
+        {
+          "text": "Generate API KeyView Docs",
+          "className": "flex flex-col justify-start gap-4 sm:flex-row"
+        }
+      ],
+      "htmlLength": 33587
+    },
+    {
+      "idx": 1,
+      "className": "overflow-hidden bg-[oklch(0.9702_0_0)] py-4 sm:py-12",
+      "top": 900,
+      "height": 149,
+      "text": "",
+      "cards": [],
+      "labels": [],
+      "htmlLength": 111255
+    },
+    {
+      "idx": 2,
+      "className": "overflow-hidden bg-[oklch(0.9702_0_0)] px-4 py-12 sm:px-6 sm:py-16",
+      "top": 1049,
+      "height": 1923,
+      "text": "THE\nNEXT-GEN\nPOWERHOUSES\nFour\nmodalities,\none\nnetwork.\nOne\nbill,\npaid\nin\nmilliseconds.\nText\nreasoning,\nlong-context\nunderstanding,\nimage\nand\nvideo\ngeneration.\nBuilt\nfor\ncomplex\nworkflows\nand\nvisual\ncreation.\nText\n&\nReasoning\nDeepSeek-V4\nPro\n1.6T\nMoE\narchitecture\ntopping\nthe\nSWE-Bench.\nMatches\ntop-tier\nmodels\nin\ncomplex\nlogical\ndeduction\nand\ncoding\nat\na\nfraction\nof\nthe\ncost.\nText\n&\nReasoning\nQwen-3.6\nMax\n1M\ntoken\ncontext\nwith\nflawless\nMCP\nintegration.\nThe\nultimate\nengine\nfor\n2026\nagentic\nworkflows\nand\ntool\nexecution.\nHigh-Fidelity\nImage\nGeneration\nSeedream\n5.0\nLite\nFirst\nmodel\nwith\nweb-search-powered\ngeneration,\nprecise\nCJK\n&\nEnglish\ntext\nrendering.\nOnly\n$0.034/img\n—\n1/5\nthe\ncost\nof\nGPT-Image-2.\nHigh-Fidelity\nImage\nGeneration\nQwen\nImage\n2.0\nPro\nFirst\nmodel\nwith\nweb-search-powered\ngeneration,\nprecise\nCJK\n&\nEnglish\ntext\nrendering.\nOnly\n$0.034/img\n—\n1/5\nthe\ncost\nof\nGPT-Image-2.\nCinematic\nVideo\nGeneration\nSeedance\n2.0\n15-second\nmulti-shot\nnarratives\nwith\nnative\naudio\nlip-sync,\nend-to-end\nimage-to-video\npipeline.\nVisual\nquality\nand\nmotion\ncoherence\non\npar\nwith\nVEO3.\nCinematic\nVideo\nGeneration\nKling\n3.0\nText/image-to-video\nwith\nkeyframe\ncontrol,\n3–15s\nmulti-aspect\noutput\nwith\nnative\naudio\nsynthesis.\nPhysics\nsimulation\nand\nmotion\ncoherence\non\npar\nwith\nVEO3.\nHyper-Realistic\nAudio\n&\nVoice\n真夜中トーキョーラブ\nSuno\nv4\n01:00\n00:00\nPaused\n01:00\nSuno\nBuilt\nfor\nthe\nAgent\nera.\nDefine\nunique\nvoices\npurely\nvia\ntext\nprompts.\nNaturally\ninjects\nlaughs,\nsighs,\nand\ndynamic\nemotions\non\nthe\nfly.\nHyper-Realistic\nAudio\n&\nVoice\nAussie\nBloke\nSpeech-02\n00:21\n00:00\nPaused\n00:21\nSpeech-02\nTopping\nHugging\nFace\nTTS\nArena.\nClones\nany\nvoice\nflawlessly\nfrom\na\n3-second\nsample\nacross\n32\nlanguages.",
+      "cards": [
+        {
+          "className": "BorderGlow-module__scWXaW__card h-full rounded-2xl",
+          "text": "Text & Reasoning DeepSeek-V4 Pro 1.6T MoE architecture topping the SWE-Bench. Matches top-tier models in complex logical deduction and coding at a fraction of the cost.",
+          "w": 361,
+          "h": 440,
+          "bg": "rgb(248, 218, 73)",
+          "br": "16px",
+          "border": "1px rgba(0, 0, 0, 0.1)",
+          "padding": "0px 0px 0px 0px"
+        },
+        {
+          "className": "BorderGlow-module__scWXaW__card h-full rounded-2xl",
+          "text": "Text & Reasoning Qwen-3.6 Max 1M token context with flawless MCP integration. The ultimate engine for 2026 agentic workflows and tool execution.",
+          "w": 361,
+          "h": 440,
+          "bg": "rgb(248, 218, 73)",
+          "br": "16px",
+          "border": "1px rgba(0, 0, 0, 0.1)",
+          "padding": "0px 0px 0px 0px"
+        },
+        {
+          "className": "BorderGlow-module__scWXaW__card h-full rounded-2xl",
+          "text": "High-Fidelity Image Generation Seedream 5.0 Lite First model with web-search-powered generation, precise CJK & English text rendering. Only $0.034/img — 1/5 the cost of GPT-Image-2.",
+          "w": 523,
+          "h": 440,
+          "bg": "rgb(97, 210, 99)",
+          "br": "16px",
+          "border": "1px rgba(0, 0, 0, 0.1)",
+          "padding": "0px 0px 0px 0px"
+        },
+        {
+          "className": "BorderGlow-module__scWXaW__card h-full rounded-2xl",
+          "text": "High-Fidelity Image Generation Qwen Image 2.0 Pro First model with web-search-powered generation, precise CJK & English text rendering. Only $0.034/img — 1/5 the cost of GPT-Image-2.",
+          "w": 631,
+          "h": 585,
+          "bg": "lab(100 0 0)",
+          "br": "16px",
+          "border": "1px rgba(0, 0, 0, 0.1)",
+          "padding": "0px 0px 0px 0px"
+        },
+        {
+          "className": "card card-0 absolute aspect-[3/4] w-[150px] overflow-hidden rounded-[12px] border-8 border-white",
+          "text": "",
+          "w": 0,
+          "h": 0,
+          "bg": "rgba(0, 0, 0, 0)",
+          "br": "12px",
+          "border": "8px rgb(255, 255, 255)",
+          "padding": "16px 16px 16px 16px"
+        },
+        {
+          "className": "card card-1 absolute aspect-[3/4] w-[150px] overflow-hidden rounded-[12px] border-8 border-white",
+          "text": "",
+          "w": 0,
+          "h": 0,
+          "bg": "rgba(0, 0, 0, 0)",
+          "br": "12px",
+          "border": "8px rgb(255, 255, 255)",
+          "padding": "16px 16px 16px 16px"
+        },
+        {
+          "className": "card card-2 absolute aspect-[3/4] w-[150px] overflow-hidden rounded-[12px] border-8 border-white",
+          "text": "",
+          "w": 0,
+          "h": 0,
+          "bg": "rgba(0, 0, 0, 0)",
+          "br": "12px",
+          "border": "8px rgb(255, 255, 255)",
+          "padding": "16px 16px 16px 16px"
+        },
+        {
+          "className": "card card-3 absolute aspect-[3/4] w-[150px] overflow-hidden rounded-[12px] border-8 border-white",
+          "text": "",
+          "w": 0,
+          "h": 0,
+          "bg": "rgba(0, 0, 0, 0)",
+          "br": "12px",
+          "border": "8px rgb(255, 255, 255)",
+          "padding": "16px 16px 16px 16px"
+        },
+        {
+          "className": "BorderGlow-module__scWXaW__card h-full rounded-2xl",
+          "text": "Cinematic Video Generation Seedance 2.0 15-second multi-shot narratives with native audio lip-sync, end-to-end image-to-video pipeline. Visual quality and motion coherence on par with VEO3.",
+          "w": 631,
+          "h": 585,
+          "bg": "color(display-p3 0.908 0.393 0.168)",
+          "br": "16px",
+          "border": "1px rgba(0, 0, 0, 0.1)",
+          "padding": "0px 0px 0px 0px"
+        },
+        {
+          "className": "BorderGlow-module__scWXaW__card h-full rounded-2xl",
+          "text": "Cinematic Video Generation Kling 3.0 Text/image-to-video with keyframe control, 3–15s multi-aspect output with native audio synthesis. Physics simulation and motion coherence on par with VEO3.",
+          "w": 523,
+          "h": 524,
+          "bg": "color(display-p3 0.908 0.393 0.168)",
+          "br": "16px",
+          "border": "1px rgba(0, 0, 0, 0.1)",
+          "padding": "0px 0px 0px 0px"
+        },
+        {
+          "className": "BorderGlow-module__scWXaW__card h-full rounded-2xl",
+          "text": "Hyper-Realistic Audio & Voice 真夜中トーキョーラブ Suno v4 01:00 00:00 Paused 01:00 Suno Built for the Agent era. Define unique voices purely via text prompts. Naturally injects laughs, sighs, and dynamic emotions on the fly.",
+          "w": 361,
+          "h": 524,
+          "bg": "rgb(236, 112, 248)",
+          "br": "16px",
+          "border": "1px rgba(0, 0, 0, 0.1)",
+          "padding": "0px 0px 0px 0px"
+        },
+        {
+          "className": "BorderGlow-module__scWXaW__card h-full rounded-2xl",
+          "text": "Hyper-Realistic Audio & Voice Aussie Bloke Speech-02 00:21 00:00 Paused 00:21 Speech-02 Topping Hugging Face TTS Arena. Clones any voice flawlessly from a 3-second sample across 32 languages.",
+          "w": 361,
+          "h": 524,
+          "bg": "rgb(236, 112, 248)",
+          "br": "16px",
+          "border": "1px rgba(0, 0, 0, 0.1)",
+          "padding": "0px 0px 0px 0px"
+        }
+      ],
+      "labels": [
+        {
+          "text": "The Next-Gen PowerhousesFour modalities, one network.One bill, paid in milliseconds.",
+          "className": ""
+        },
+        {
+          "text": "The Next-Gen Powerhouses",
+          "className": "mb-3 font-mono text-xs font-medium uppercase tracking-normal text-[var(--accent)]"
+        },
+        {
+          "text": "Text & Reasoning",
+          "className": "chip chip--default chip--tertiary absolute left-6 top-6 border-0 bg-white text-black"
+        },
+        {
+          "text": "Text & Reasoning",
+          "className": "chip chip--default chip--tertiary absolute left-6 top-6 border-0 bg-white text-black"
+        },
+        {
+          "text": "High-Fidelity Image Generation",
+          "className": "chip chip--default chip--tertiary absolute left-6 top-6 border-0 bg-white text-black"
+        },
+        {
+          "text": "High-Fidelity Image Generation",
+          "className": "chip chip--default chip--tertiary absolute left-6 top-6 border-0 bg-white text-black"
+        },
+        {
+          "text": "QwenQwen Image 2.0 Pro",
+          "className": "mt-auto mb-3 flex items-center gap-3"
+        },
+        {
+          "text": "Qwen Image 2.0 Pro",
+          "className": "min-w-0 flex-1 space-y-1"
+        },
+        {
+          "text": "Cinematic Video Generation",
+          "className": "chip chip--default chip--tertiary absolute left-6 top-6 border-0 bg-white text-black"
+        },
+        {
+          "text": "Cinematic Video Generation",
+          "className": "chip chip--default chip--tertiary absolute left-6 top-6 border-0 bg-white text-black"
+        },
+        {
+          "text": "Hyper-Realistic Audio & Voice",
+          "className": "chip chip--default chip--tertiary absolute left-6 top-6 border-0 bg-white text-black"
+        },
+        {
+          "text": "Hyper-Realistic Audio & Voice",
+          "className": "chip chip--default chip--tertiary absolute left-6 top-6 border-0 bg-white text-black"
+        }
+      ],
+      "htmlLength": 59579
+    },
+    {
+      "idx": 3,
+      "className": "relative overflow-hidden bg-white py-16 sm:py-24",
+      "top": 2972,
+      "height": 786,
+      "text": "OPENAI\nSDK\nCOMPATIBLE\nOne\nEndpoint.\nAll\nModalities.\nFully\ncompatible\nwith\nstandard\nOpenAI\nSDKs\nfor\nText,\nVideo,\nVision,\nand\nTTS.\ncURL\nPython\nJavaScript\nGo\nJava\nPHP\n1\ncurl\n--location\n'https://api.tokenhot.ai/v1/chat/completions'\n\\\n2\n--header\n'Authorization:\nBearer\n<TOKENHOT_API_KEY>'\n\\\n3\n--header\n'Content-Type:\napplication/json'\n\\\n4\n--data\n'{\n5\n\"model\":\n\"gpt-4o\",\n6\n\"messages\":\n[\n7\n{\n8\n\"role\":\n\"system\",\n9\n\"content\":\n\"You\nare\na\nprofessional\nAI\nassistant.\"\n10\n},\n11\n{\n12\n\"role\":\n\"user\",\n13\n\"content\":\n\"Tell\nme\nabout\nthe\nhistory\nof\nartificial\nintelligence.\"\n14\n}\n15\n]\n16\n}'",
+      "cards": [],
+      "labels": [
+        {
+          "text": "OpenAI SDK Compatible",
+          "className": "mb-3 font-mono text-xs font-medium uppercase tracking-normal text-[var(--accent)]"
+        },
+        {
+          "text": "Fully compatible with standard OpenAI SDKs for Text, Video, Vision, and TTS.",
+          "className": "text-[15px] text-neutral-500 dark:text-neutral-400"
+        },
+        {
+          "text": "cURLPythonJavaScriptGoJavaPHP",
+          "className": "mb-4 flex items-center gap-2"
+        },
+        {
+          "text": "cURLPythonJavaScriptGoJavaPHP",
+          "className": "flex flex-1 gap-1.5 overflow-x-auto"
+        },
+        {
+          "text": "1curl --location 'https://api.tokenhot.ai/v1/chat/completions' \\",
+          "className": "contents"
+        },
+        {
+          "text": "curl --location 'https://api.tokenhot.ai/v1/chat/completions' \\",
+          "className": "whitespace-pre text-[#f2f2f2]"
+        },
+        {
+          "text": "curl",
+          "className": "text-[#ffac60]"
+        }
+      ],
+      "htmlLength": 7577
+    },
+    {
+      "idx": 4,
+      "className": "overflow-hidden bg-[oklch(0.9702_0_0)] px-4 py-16 text-center text-[oklch(0.2103_0.0059_285.89)] sm:px-6 sm:py-24",
+      "top": 3757,
+      "height": 784,
+      "text": "INSTANT\nACCESS,\nSIMPLE\nPRICING\nStop\noverpaying.\nStart\nbuilding\ntoday.\nLaunch\nwith\nenterprise-grade\nlatency,\nflexible\nbilling,\nand\ninstant\naccount\nprovisioning\nfrom\none\nunified\nAPI.\n1.8s\nLatency\nDedicated\nenterprise\nlines\nkeep\nresponses\nfast\nacross\nglobal\nroutes.\nPay-As-You-Go\nNo\nsubscriptions\nor\nseat\nfees.\nScale\nusage\nonly\nwhen\nyou\nneed\nit.\nZero\nKYC\nNo\nidentity\nverification\nrequired.\nStart\nbuilding\ninstantly\nwith\nany\nmajor\ncredit\ncard.\nGet\nYour\nAPI\nKey\nNow",
+      "cards": [],
+      "labels": [
+        {
+          "text": "Instant Access, Simple Pricing",
+          "className": "mb-6 font-mono text-xs font-medium uppercase tracking-normal text-[var(--accent)]"
+        },
+        {
+          "text": "Launch with enterprise-grade latency, flexible billing, and instant account provisioning from one unified API.",
+          "className": "mx-auto max-w-[820px] text-[15px] leading-[1.45] text-neutral-500 dark:text-neutral-400"
+        },
+        {
+          "text": "Zero KYCNo identity verification required. Start building instantly with any major credit card.",
+          "className": "relative overflow-hidden rounded-[24px] border border-black/10 bg-[#FF7615] p-4 text-[oklch(0.2103_0.0059_285.89)]"
+        },
+        {
+          "text": "Zero KYCNo identity verification required. Start building instantly with any major credit card.",
+          "className": "px-3 pb-4 pt-6"
+        },
+        {
+          "text": "No identity verification required. Start building instantly with any major credit card.",
+          "className": "text-sm leading-relaxed text-black/55"
+        }
+      ],
+      "htmlLength": 4159
+    },
+    {
+      "idx": 5,
+      "className": "relative overflow-hidden bg-gradient-to-b from-[#E8450E] to-[#FA5902] py-16 text-center text-white sm:py-28",
+      "top": 4542,
+      "height": 490,
+      "text": "Ready\nto\nbuild?\nSkip\nthe\nwait.\nGet\nyour\nAPI\nkey\nand\nstart\ncalling\nthe\nAPI\ninstantly.\nNeed\nhigher\nrate\nlimits,\ncustom\nfeatures,\nor\nvolume\ndiscounts?\nLet's\ntalk.\nCreate\nAPI\nKey\nTalk\nto\nSales",
+      "cards": [],
+      "labels": [],
+      "htmlLength": 1084
+    }
+  ],
+  "heroCards": [
+    {
+      "text": "GeminiGemini",
+      "className": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+      "w": 560,
+      "h": 567,
+      "x": 906,
+      "y": 315,
+      "bg": "rgb(0, 0, 0)",
+      "bgImage": "none",
+      "br": "12px",
+      "transform": "matrix(1, 0.212557, 0, 1, 98.9555, -602.956)"
+    },
+    {
+      "text": "GeminiGemini",
+      "className": "relative z-10 flex items-center ",
+      "w": 510,
+      "h": 140,
+      "x": 931,
+      "y": 345,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "br": "0px",
+      "transform": "none"
+    },
+    {
+      "text": "GeminiGemini",
+      "className": "lobe-flex",
+      "w": 143,
+      "h": 62,
+      "x": 931,
+      "y": 345,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "br": "0px",
+      "transform": "none"
+    },
+    {
+      "text": "OpenAIOpenAI",
+      "className": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+      "w": 560,
+      "h": 567,
+      "x": 984,
+      "y": 237,
+      "bg": "rgb(0, 0, 0)",
+      "bgImage": "none",
+      "br": "12px",
+      "transform": "matrix(1, 0.212557, 0, 1, 176.71, -681.294)"
+    },
+    {
+      "text": "OpenAIOpenAI",
+      "className": "relative z-10 flex items-center ",
+      "w": 510,
+      "h": 140,
+      "x": 1009,
+      "y": 267,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "br": "0px",
+      "transform": "none"
+    },
+    {
+      "text": "OpenAIOpenAI",
+      "className": "lobe-flex",
+      "w": 121,
+      "h": 58,
+      "x": 1009,
+      "y": 267,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "br": "0px",
+      "transform": "none"
+    },
+    {
+      "text": "ClaudeClaude",
+      "className": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+      "w": 560,
+      "h": 567,
+      "x": 527,
+      "y": 694,
+      "bg": "rgb(0, 0, 0)",
+      "bgImage": "none",
+      "br": "12px",
+      "transform": "matrix(1, 0.212557, 0, 1, -280.069, -223.931)"
+    },
+    {
+      "text": "ClaudeClaude",
+      "className": "relative z-10 flex items-center ",
+      "w": 510,
+      "h": 140,
+      "x": 552,
+      "y": 724,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "br": "0px",
+      "transform": "none"
+    },
+    {
+      "text": "ClaudeClaude",
+      "className": "lobe-flex",
+      "w": 139,
+      "h": 61,
+      "x": 552,
+      "y": 724,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "br": "0px",
+      "transform": "none"
+    },
+    {
+      "text": "QwenQwen",
+      "className": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+      "w": 560,
+      "h": 567,
+      "x": 603,
+      "y": 618,
+      "bg": "rgb(0, 0, 0)",
+      "bgImage": "none",
+      "br": "12px",
+      "transform": "matrix(1, 0.212557, 0, 1, -204.151, -299.849)"
+    },
+    {
+      "text": "QwenQwen",
+      "className": "relative z-10 flex items-center ",
+      "w": 510,
+      "h": 140,
+      "x": 628,
+      "y": 649,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "br": "0px",
+      "transform": "none"
+    },
+    {
+      "text": "QwenQwen",
+      "className": "lobe-flex",
+      "w": 108,
+      "h": 55,
+      "x": 628,
+      "y": 649,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "br": "0px",
+      "transform": "none"
+    },
+    {
+      "text": "DoubaoDoubao",
+      "className": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+      "w": 560,
+      "h": 567,
+      "x": 679,
+      "y": 542,
+      "bg": "rgb(0, 0, 0)",
+      "bgImage": "none",
+      "br": "12px",
+      "transform": "matrix(1, 0.212557, 0, 1, -128.287, -375.713)"
+    },
+    {
+      "text": "DoubaoDoubao",
+      "className": "relative z-10 flex items-center ",
+      "w": 510,
+      "h": 144,
+      "x": 704,
+      "y": 573,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "br": "0px",
+      "transform": "none"
+    },
+    {
+      "text": "DoubaoDoubao",
+      "className": "text-[24px] flex items-center gap-2",
+      "w": 129,
+      "h": 63,
+      "x": 704,
+      "y": 573,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "br": "0px",
+      "transform": "none"
+    },
+    {
+      "text": "DeepSeekDeepSeek",
+      "className": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+      "w": 560,
+      "h": 567,
+      "x": 755,
+      "y": 467,
+      "bg": "rgb(0, 0, 0)",
+      "bgImage": "none",
+      "br": "12px",
+      "transform": "matrix(1, 0.212557, 0, 1, -52.4917, -451.508)"
+    },
+    {
+      "text": "DeepSeekDeepSeek",
+      "className": "relative z-10 flex items-center ",
+      "w": 510,
+      "h": 140,
+      "x": 780,
+      "y": 497,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "br": "0px",
+      "transform": "none"
+    },
+    {
+      "text": "DeepSeekDeepSeek",
+      "className": "lobe-flex",
+      "w": 152,
+      "h": 64,
+      "x": 780,
+      "y": 497,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "br": "0px",
+      "transform": "none"
+    },
+    {
+      "text": "SunoSuno",
+      "className": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+      "w": 560,
+      "h": 567,
+      "x": 830,
+      "y": 391,
+      "bg": "rgb(0, 0, 0)",
+      "bgImage": "none",
+      "br": "12px",
+      "transform": "matrix(1, 0.212557, 0, 1, 23.2387, -527.239)"
+    },
+    {
+      "text": "SunoSuno",
+      "className": "relative z-10 flex items-center ",
+      "w": 510,
+      "h": 140,
+      "x": 855,
+      "y": 421,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "none",
+      "br": "0px",
+      "transform": "none"
+    }
+  ],
+  "logoLoop": {
+    "className": "overflow-hidden bg-[oklch(0.9702_0_0)] py-4 sm:py-12",
+    "text": "",
+    "html": "<div class=\"relative group overflow-x-hidden [--logoloop-gap:32px] [--logoloop-logoHeight:28px] [--logoloop-fadeColorAuto:#ffffff] dark:[--logoloop-fadeColorAuto:#0b0b0b]\" role=\"region\" aria-label=\"Supported model logos\" style=\"width: 100%; --logoloop-gap: 100px; --logoloop-logoHeight: 36px; --logoloop-fadeColor: oklch(0.9702 0 0);\"><div aria-hidden=\"true\" class=\"pointer-events-none absolute inset-y-0 left-0 z-10 w-[clamp(24px,8%,120px)] bg-[linear-gradient(to_right,var(--logoloop-fadeColor,var(--logoloop-fadeColorAuto))_0%,rgba(0,0,0,0)_100%)]\"></div><div aria-hidden=\"true\" class=\"pointer-events-none absolute inset-y-0 right-0 z-10 w-[clamp(24px,8%,120px)] bg-[linear-gradient(to_left,var(--logoloop-fadeColor,var(--logoloop-fadeColorAuto))_0%,rgba(0,0,0,0)_100%)]\"></div><div class=\"flex will-change-transform select-none relative z-0 motion-reduce:transform-none flex-row w-max\" style=\"transform: translate3d(-308.702px, 0px, 0px);\"><ul class=\"flex items-center\" role=\"list\" aria-hidden=\"false\"><li class=\"flex-none text-[length:var(--logoloop-logoHeight)] leading-[1] mr-[var(--logoloop-gap)]\" role=\"listitem\"><span class=\"inline-flex items-center motion-reduce:transition-none\" aria-hidden=\"false\"><div aria-label=\"DeepSeek\" class=\"lobe-flex\" style=\"--lobe-flex: none; --lobe-flex-direction: row; --lobe-flex-justify: flex-start; --lobe-flex-align: center;\"><svg fill=\"currentColor\" fill-rule=\"evenodd\" height=\"36\" viewBox=\"0 0 24 24\" width=\"36\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex: 0 0 auto; line-height: 1; margin-right: 7.2px;\"><title>DeepSeek</title><path d=\"M23.748 4.482c-.254-.124-.364.113-.512.234-.051.039-.094.09-.137.136-.372.397-.806.657-1.373.626-.829-.046-1.537.214-2.163.848-.133-.782-.575-1.248-1.247-1.548-.352-.156-.708-.311-.955-.65-.172-.241-.219-.51-.305-.774-.055-.16-.11-.323-.293-.35-.2-.031-.278.136-.356.276-.313.572-.434 1.202-.422 1.84.027 1.436.633 2.58 1.838 3.393.137.093.172.187.129.323-.082.28-.18.552-.266.833-.055.179-.137.217-.329.14a5.526 5.526 0 01-1.736-1.18c-.857-.828-1.631-1.742-2.597-2.458a11.365 11.365 0 00-.689-.471c-.985-.957.13-1.743.388-1.836.27-.098.093-.432-.779-.428-.872.004-1.67.295-2.687.684a3.055 3.055 0 01-.465.137 9.597 9.597 0 00-2.883-.102c-1.885.21-3.39 1.102-4.497 2.623C.082 8.606-.231 10.684.152 12.85c.403 2.284 1.569 4.175 3.36 5.653 1.858 1.533 3.997 2.284 6.438 2.14 1.482-.085 3.133-.284 4.994-1.86.47.234.962.327 1.78.397.63.059 1.236-.03 1.705-.128.735-.156.684-.837.419-.961-2.155-1.004-1.682-.595-2.113-.926 1.096-1.296 2.746-2.642 3.392-7.003.05-.347.007-.565 0-.845-.004-.17.035-.237.23-.256a4.173 4.173 0 001.545-.475c1.396-.763 1.96-2.015 2.093-3.517.02-.23-.004-.467-.247-.588zM11.581 18c-2.089-1.642-3.102-2.183-3.52-2.16-.392.024-.321.471-.235.763.09.288.207.486.371.739.114.167.192.416-.113.603-.673.416-1.842-.14-1.897-.167-1.361-.802-2.5-1.86-3.301-3.307-.774-1.393-1.224-2.887-1.298-4.482-.02-.386.093-.522.477-.592a4.696 4.696 0 011.529-.039c2.132.312 3.946 1.265 5.468 2.774.868.86 1.525 1.887 2.202 2.891.72 1.066 1.494 2.082 2.48 2.914.348.292.625.514.891.677-.802.09-2.14.11-3.054-.614zm1-6.44a.306.306 0 01.415-.287.302.302 0 01.2.288.306.306 0 01-.31.307.303.303 0 01-.304-.308zm3.11 1.596c-.2.081-.399.151-.59.16a1.245 1.245 0 01-.798-.254c-.274-.23-.47-.358-.552-.758a1.73 1.73 0 01.016-.588c.07-.327-.008-.537-.239-.727-.187-.156-.426-.199-.688-.199a.559.559 0 01-.254-.078c-.11-.054-.2-.19-.114-.358.028-.054.16-.186.192-.21.356-.202.767-.136 1.146.016.352.144.618.408 1.001.782.391.451.462.576.685.914.176.265.336.537.445.848.067.195-.019.354-.25.452z\"></path></svg><svg fill=\"currentColor\" fill-rule=\"evenodd\" height=\"23.400000000000002\" viewBox=\"0 0 131 24\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex: 0 0 auto; line-height: 1;\"><title>DeepSeek</title><path d=\"M117.986 0h-3.21v19.404h3.21V0zM8.7 5.215h1.83v2.838H8.7c-1.135 0-2.28.282-3.019 1.068-.738.785-1.016 1.99-1.016 3.194s.267 2.408 1.016 3.193c.75.786 1.884 1.068 3.018 1.068 1.135 0 2.28-.282 3.018-1.068.739-.785 1.017-1.99 1.017-3.193V.649h3.21v18.755h-3.21V18.21h-.589a3.498 3.498 0 01-.192.199c-.803.733-2.034.995-3.243.995-1.894 0-3.788-.472-5.03-1.78C2.44 16.314 2 14.303 2 12.303c0-2 .45-4 1.68-5.32 1.242-1.308 3.136-1.77 5.02-1.77zM57.564 18.9h-1.83v-2.837h1.83c1.134 0 2.28-.283 3.017-1.068.739-.785 1.017-1.99 1.017-3.194s-.267-2.408-1.017-3.194c-.749-.785-1.883-1.068-3.017-1.068s-2.28.283-3.018 1.068c-.738.786-1.017 1.99-1.017 3.194v11.655h-3.21V4.712h3.21v1.194h.59a3.42 3.42 0 01.186-.194l.005-.005c.803-.733 2.034-.995 3.243-.995 1.895 0 3.788.471 5.03 1.78 1.241 1.31 1.68 3.32 1.68 5.32 0 2-.45 4-1.68 5.319-1.23 1.32-3.135 1.77-5.019 1.77zM32.05 13.204v-1.14c0-2.064-.46-4.137-1.754-5.498-1.285-1.362-3.264-1.843-5.223-1.843-1.958 0-3.928.492-5.222 1.843-1.295 1.35-1.755 3.434-1.755 5.497 0 2.063.47 4.136 1.755 5.498 1.284 1.36 3.264 1.843 5.222 1.843 1.959 0 3.938-.493 5.223-1.843.663-.692 1.102-1.582 1.38-2.566h-3.168a5.026 5.026 0 01-.3.367c-.77.816-1.958 1.11-3.135 1.11-1.177 0-2.365-",
+    "childCount": 250,
+    "svgs": 54,
+    "imgs": []
+  },
+  "code": null,
+  "benefits": [
+    {
+      "title": "1.8s Latency",
+      "desc": "Dedicated enterprise lines keep responses fast across global routes.",
+      "className": "px-3 pb-4 pt-6",
+      "w": 379,
+      "h": 126,
+      "bg": "rgba(0, 0, 0, 0)",
+      "br": "0px",
+      "padding": "24px 12px 16px 12px",
+      "img": null
+    },
+    {
+      "title": "Pay-As-You-Go",
+      "desc": "No subscriptions or seat fees. Scale usage only when you need it.",
+      "className": "px-3 pb-4 pt-6",
+      "w": 379,
+      "h": 126,
+      "bg": "rgba(0, 0, 0, 0)",
+      "br": "0px",
+      "padding": "24px 12px 16px 12px",
+      "img": null
+    },
+    {
+      "title": "Zero KYC",
+      "desc": "No identity verification required. Start building instantly with any major credit card.",
+      "className": "px-3 pb-4 pt-6",
+      "w": 379,
+      "h": 126,
+      "bg": "rgba(0, 0, 0, 0)",
+      "br": "0px",
+      "padding": "24px 12px 16px 12px",
+      "img": null
+    }
+  ],
+  "modelsText": "THE NEXT-GEN POWERHOUSES\nFour modalities, one network.\nOne bill, paid in milliseconds.\n\nText reasoning, long-context understanding, image and video generation. Built for complex workflows and visual creation.\n\nText & Reasoning\nDeepSeek-V4 Pro\n\n1.6T MoE architecture topping the SWE-Bench. Matches top-tier models in complex logical deduction and coding at a fraction of the cost.\n\nText & Reasoning\nQwen-3.6 Max\n\n1M token context with flawless MCP integration. The ultimate engine for 2026 agentic workflows and tool execution.\n\nHigh-Fidelity Image Generation\nSeedream 5.0 Lite\n\nFirst model with web-search-powered generation, precise CJK & English text rendering. Only $0.034/img — 1/5 the cost of GPT-Image-2.\n\nHigh-Fidelity Image Generation\nQwen Image 2.0 Pro\n\nFirst model with web-search-powered generation, precise CJK & English text rendering. Only $0.034/img — 1/5 the cost of GPT-Image-2.\n\nCinematic Video Generation\nSeedance 2.0\n\n15-second multi-shot narratives with native audio lip-sync, end-to-end image-to-video pipeline. Visual quality and motion coherence on par with VEO3.\n\nCinematic Video Generation\nKling 3.0\n\nText/image-to-video with keyframe control, 3–15s multi-aspect output with native audio synthesis. Physics simulation and motion coherence on par with VEO3.\n\nHyper-Realistic Audio & Voice\n真夜中トーキョーラブ\nSuno v4\n01:00\n00:00\nPaused\n01:00\nSuno\n\nBuilt for the Agent era. Define unique voices purely via text prompts. Naturally injects laughs, sighs, and dynamic emotions on the fly.\n\nHyper-Realistic Audio & Voice\nAussie Bloke\nSpeech-02\n00:21\n00:00\nPaused\n00:21\nSpeech-02\n\nTopping Hugging Face TTS Arena. Clones any voice flawlessly from a 3-second sample across 32 languages."
+}

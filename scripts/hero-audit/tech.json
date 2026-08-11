@@ -1,0 +1,86 @@
+[
+  {
+    "label": "Gemini",
+    "cardClass": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+    "grainClass": "grainient-container gemini-grainient-bg",
+    "canvas": {
+      "w": 558,
+      "h": 564,
+      "style": "width: 558px; height: 564px; display: block;"
+    },
+    "styleAttr": "width: 560px; height: 448px; translate: none; rotate: none; scale: none; z-index: 2; transform-origin: 50% 50%; transform: translate(-50%, -50%) translate3d(388.808px, -388.808px, 0px) skew(0deg, 12deg);",
+    "innerHTMLHead": "<div class=\"grainient-container gemini-grainient-bg\"><canvas width=\"558\" height=\"564\" style=\"width: 558px; height: 564px; display: block;\"></canvas></div><div class=\"relative z-10 flex items-center \"><div aria-label=\"Gemini\" class=\"lobe-flex\" style=\"--lobe-flex: none; --lobe-flex-direction: row; --lobe-flex-justify: flex-start; --lobe-flex-align: center;\"><svg fill=\"currentColor\" fill-rule=\"evenodd\" height=\"32\" viewBox=\"0 0 24 24\" width=\"32\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex: 0 0 au"
+  },
+  {
+    "label": "OpenAI",
+    "cardClass": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+    "grainClass": "grainient-container gemini-grainient-bg",
+    "canvas": {
+      "w": 558,
+      "h": 564,
+      "style": "width: 558px; height: 564px; display: block;"
+    },
+    "styleAttr": "width: 560px; height: 448px; translate: none; rotate: none; scale: none; z-index: 1; transform-origin: 50% 50%; transform: translate(-50%, -50%) translate3d(462.663px, -468.337px, 0px) skew(0deg, 12deg);",
+    "innerHTMLHead": "<div class=\"grainient-container gemini-grainient-bg\"><canvas width=\"558\" height=\"564\" style=\"width: 558px; height: 564px; display: block;\"></canvas></div><div class=\"relative z-10 flex items-center \"><div aria-label=\"OpenAI\" class=\"lobe-flex\" style=\"--lobe-flex: none; --lobe-flex-direction: row; --lobe-flex-justify: flex-start; --lobe-flex-align: center;\"><svg fill=\"currentColor\" fill-rule=\"evenodd\" height=\"32\" viewBox=\"0 0 24 24\" width=\"32\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex: 0 0 au"
+  },
+  {
+    "label": "Claude",
+    "cardClass": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+    "grainClass": "grainient-container gemini-grainient-bg",
+    "canvas": {
+      "w": 558,
+      "h": 564,
+      "style": "width: 558px; height: 564px; display: block;"
+    },
+    "styleAttr": "width: 560px; height: 448px; translate: none; rotate: none; scale: none; z-index: 7; transform-origin: 50% 50%; transform: translate(-50%, -50%) translate3d(-0.9419px, 0.9419px, 0px) skew(0deg, 12deg);",
+    "innerHTMLHead": "<div class=\"grainient-container gemini-grainient-bg\"><canvas width=\"558\" height=\"564\" style=\"width: 558px; height: 564px; display: block;\"></canvas></div><div class=\"relative z-10 flex items-center \"><div aria-label=\"Claude\" class=\"lobe-flex\" style=\"--lobe-flex: none; --lobe-flex-direction: row; --lobe-flex-justify: flex-start; --lobe-flex-align: center;\"><svg fill=\"currentColor\" fill-rule=\"evenodd\" height=\"32\" viewBox=\"0 0 24 24\" width=\"32\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex: 0 0 au"
+  },
+  {
+    "label": "Qwen",
+    "cardClass": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+    "grainClass": "grainient-container gemini-grainient-bg",
+    "canvas": {
+      "w": 558,
+      "h": 564,
+      "style": "width: 558px; height: 564px; display: block;"
+    },
+    "styleAttr": "width: 560px; height: 448px; translate: none; rotate: none; scale: none; z-index: 6; transform-origin: 50% 50%; transform: translate(-50%, -50%) translate3d(74.8337px, -74.8337px, 0px) skew(0deg, 12deg);",
+    "innerHTMLHead": "<div class=\"grainient-container gemini-grainient-bg\"><canvas width=\"558\" height=\"564\" style=\"width: 558px; height: 564px; display: block;\"></canvas></div><div class=\"relative z-10 flex items-center \"><div aria-label=\"Qwen\" class=\"lobe-flex\" style=\"--lobe-flex: none; --lobe-flex-direction: row; --lobe-flex-justify: flex-start; --lobe-flex-align: center;\"><svg fill=\"currentColor\" fill-rule=\"evenodd\" height=\"32\" viewBox=\"0 0 24 24\" width=\"32\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex: 0 0 auto"
+  },
+  {
+    "label": "DoubaoDoubao",
+    "cardClass": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+    "grainClass": "grainient-container gemini-grainient-bg",
+    "canvas": {
+      "w": 558,
+      "h": 564,
+      "style": "width: 558px; height: 564px; display: block;"
+    },
+    "styleAttr": "width: 560px; height: 448px; translate: none; rotate: none; scale: none; z-index: 5; transform-origin: 50% 50%; transform: translate(-50%, -50%) translate3d(150.933px, -150.933px, 0px) skew(0deg, 12deg);",
+    "innerHTMLHead": "<div class=\"grainient-container gemini-grainient-bg\"><canvas width=\"558\" height=\"564\" style=\"width: 558px; height: 564px; display: block;\"></canvas></div><div class=\"relative z-10 flex items-center \"><div class=\"text-[24px] flex items-center gap-2\"><svg fill=\"currentColor\" fill-rule=\"evenodd\" height=\"32\" viewBox=\"0 0 24 24\" width=\"32\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex: 0 0 auto; line-height: 1;\"><title>Doubao</title><path d=\"M5.31 15.756c.172-3.75 1.883-5.999 2.549-6.739-3.26 2.058-"
+  },
+  {
+    "label": "DeepSeek",
+    "cardClass": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+    "grainClass": "grainient-container gemini-grainient-bg",
+    "canvas": {
+      "w": 558,
+      "h": 564,
+      "style": "width: 558px; height: 564px; display: block;"
+    },
+    "styleAttr": "width: 560px; height: 448px; translate: none; rotate: none; scale: none; z-index: 4; transform-origin: 50% 50%; transform: translate(-50%, -50%) translate3d(227.886px, -227.886px, 0px) skew(0deg, 12deg);",
+    "innerHTMLHead": "<div class=\"grainient-container gemini-grainient-bg\"><canvas width=\"558\" height=\"564\" style=\"width: 558px; height: 564px; display: block;\"></canvas></div><div class=\"relative z-10 flex items-center \"><div aria-label=\"DeepSeek\" class=\"lobe-flex\" style=\"--lobe-flex: none; --lobe-flex-direction: row; --lobe-flex-justify: flex-start; --lobe-flex-align: center;\"><svg fill=\"currentColor\" fill-rule=\"evenodd\" height=\"32\" viewBox=\"0 0 24 24\" width=\"32\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex: 0 0 "
+  },
+  {
+    "label": "Suno",
+    "cardClass": "card  overflow-hidden border-0 bg-transparent p-6 text-left text-white",
+    "grainClass": "grainient-container gemini-grainient-bg",
+    "canvas": {
+      "w": 558,
+      "h": 564,
+      "style": "width: 558px; height: 564px; display: block;"
+    },
+    "styleAttr": "width: 560px; height: 448px; translate: none; rotate: none; scale: none; z-index: 3; transform-origin: 50% 50%; transform: translate(-50%, -50%) translate3d(306.652px, -306.652px, 0px) skew(0deg, 12deg);",
+    "innerHTMLHead": "<div class=\"grainient-container gemini-grainient-bg\"><canvas width=\"558\" height=\"564\" style=\"width: 558px; height: 564px; display: block;\"></canvas></div><div class=\"relative z-10 flex items-center \"><div aria-label=\"Suno\" class=\"lobe-flex\" style=\"--lobe-flex: none; --lobe-flex-direction: row; --lobe-flex-justify: flex-start; --lobe-flex-align: center;\"><svg fill=\"currentColor\" fill-rule=\"evenodd\" height=\"32\" viewBox=\"0 0 24 24\" width=\"32\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex: 0 0 auto"
+  }
+]

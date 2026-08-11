@@ -1,0 +1,376 @@
+{
+  "vars": {
+    "--background": "#f7f7f7",
+    "--foreground": "lab(8.34178% .607349 -2.12998)",
+    "--surface": "#fff",
+    "--muted": "lab(47.8738% 1.41454 -4.98644)",
+    "--accent": "color(display-p3 .908 .393 .168)",
+    "--accent-foreground": "#f7f7f7",
+    "--border": "lab(0% 0 0/0)",
+    "--radius": ".5rem",
+    "--nav-top": "",
+    "--nav-height-offset": "calc(64px + 36px)",
+    "--primary": "lab(7.78201% -.0000149012 0)",
+    "--snow": "lab(98.9676% -.0000298023 -.0000119209)",
+    "--eclipse": "lab(8.34178% .607349 -2.12998)"
+  },
+  "footerLinks": [
+    {
+      "text": "",
+      "href": "/"
+    },
+    {
+      "text": "",
+      "href": "https://x.com/Tokenhot_ai"
+    },
+    {
+      "text": "",
+      "href": "https://discord.gg/fwh5wfxnwA"
+    },
+    {
+      "text": "About",
+      "href": "/about"
+    },
+    {
+      "text": "Blog",
+      "href": "https://blog.tokenhot.ai/"
+    },
+    {
+      "text": "Support",
+      "href": "/support"
+    },
+    {
+      "text": "hi@tokenhot.ai",
+      "href": "mailto:hi@tokenhot.ai"
+    },
+    {
+      "text": "Terms",
+      "href": "https://docs.tokenhot.ai/english/terms"
+    },
+    {
+      "text": "Privacy",
+      "href": "https://docs.tokenhot.ai/english/privacy"
+    }
+  ],
+  "footerHeadings": [
+    {
+      "tag": "P",
+      "text": "The frontier intelligence gateway. One API. 127 models. 0.2s",
+      "className": "mb-6 max-w-[260px] font-serif text-sm italic text-white/50"
+    },
+    {
+      "tag": "SPAN",
+      "text": "All systems normal · 99.997% uptime",
+      "className": "inline-flex items-center gap-2 rounded-full border border-white/10 px-4 py-2 font-mono text-xs text-white/70"
+    },
+    {
+      "tag": "H4",
+      "text": "Company",
+      "className": "mb-4 font-mono text-xs uppercase tracking-widest text-white/40"
+    },
+    {
+      "tag": "H4",
+      "text": "Support",
+      "className": "mb-4 font-mono text-xs uppercase tracking-widest text-white/40"
+    },
+    {
+      "tag": "H4",
+      "text": "Legal",
+      "className": "mb-4 font-mono text-xs uppercase tracking-widest text-white/40"
+    },
+    {
+      "tag": "SPAN",
+      "text": "© 2026 TokenHot Inc. — Built for builders.",
+      "className": ""
+    }
+  ],
+  "hasPill": false,
+  "hasShell": true,
+  "[data-shell='1']": {
+    "tag": "DIV",
+    "className": "fixed inset-x-0 top-[68px] z-50 mx-auto w-full max-w-[992px] px-4 transition-[top,padding] duration-500 ease-in-out md:top-[var(--nav-top)] sm:px-5",
+    "text": "HomeModelsConsoleDocumentationLoginSign Up",
+    "rect": {
+      "x": 221,
+      "y": 64,
+      "w": 992,
+      "h": 66
+    },
+    "fontFamily": "Inter, \"Inter Fallback\"",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "color": "lab(8.34178 0.607349 -2.12998)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px solid lab(0 0 0 / 0)",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "padding": "0px 20px 0px 20px",
+    "gap": "normal",
+    "maxWidth": "992px",
+    "height": "66px",
+    "width": "992px"
+  },
+  "[data-pill='1']": null,
+  "[data-btn='signup']": {
+    "tag": "A",
+    "className": "",
+    "text": "Sign Up",
+    "rect": {
+      "x": 1095.578125,
+      "y": 81,
+      "w": 76.421875,
+      "h": 32
+    },
+    "fontFamily": "Inter, \"Inter Fallback\"",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "color": "lab(8.34178 0.607349 -2.12998)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px solid lab(0 0 0 / 0)",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "padding": "0px 0px 0px 0px",
+    "gap": "normal",
+    "maxWidth": "none",
+    "height": "32px",
+    "width": "76.4219px"
+  },
+  "[data-btn='login']": {
+    "tag": "A",
+    "className": "text-sm text-[rgba(33,37,41,0.8)] px-3 transition-colors duration-200 ease-out hover:text-[rgb(33,37,41)]",
+    "text": "Login",
+    "rect": {
+      "x": 1031.015625,
+      "y": 87,
+      "w": 60.5625,
+      "h": 20
+    },
+    "fontFamily": "Inter, \"Inter Fallback\"",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "color": "rgba(33, 37, 41, 0.8)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px solid lab(0 0 0 / 0)",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "padding": "0px 12px 0px 12px",
+    "gap": "normal",
+    "maxWidth": "none",
+    "height": "20px",
+    "width": "60.5625px"
+  },
+  "[data-btn='generate']": {
+    "tag": "A",
+    "className": "",
+    "text": "Generate API Key",
+    "rect": {
+      "x": 77,
+      "y": 608.796875,
+      "w": 165.4375,
+      "h": 40
+    },
+    "fontFamily": "Inter, \"Inter Fallback\"",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "color": "lab(8.34178 0.607349 -2.12998)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px solid lab(0 0 0 / 0)",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "padding": "0px 0px 0px 0px",
+    "gap": "normal",
+    "maxWidth": "none",
+    "height": "40px",
+    "width": "165.438px"
+  },
+  "[data-btn='docs']": {
+    "tag": "A",
+    "className": "",
+    "text": "View Docs",
+    "rect": {
+      "x": 258.4375,
+      "y": 608.796875,
+      "w": 115.109375,
+      "h": 40
+    },
+    "fontFamily": "Inter, \"Inter Fallback\"",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "color": "lab(8.34178 0.607349 -2.12998)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px solid lab(0 0 0 / 0)",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "padding": "0px 0px 0px 0px",
+    "gap": "normal",
+    "maxWidth": "none",
+    "height": "40px",
+    "width": "115.109px"
+  },
+  "[data-hero-p='1']": {
+    "tag": "P",
+    "className": "mb-6 max-w-[600px] text-base leading-relaxed text-[rgba(33,37,41,0.7)]",
+    "text": "Access OpenAI and Claude models from one unified endpoint. Or, slash your API bi",
+    "rect": {
+      "x": 77,
+      "y": 506.796875,
+      "w": 600,
+      "h": 78
+    },
+    "fontFamily": "Inter, \"Inter Fallback\"",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "26px",
+    "letterSpacing": "normal",
+    "color": "rgba(33, 37, 41, 0.7)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px solid lab(0 0 0 / 0)",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "padding": "0px 0px 0px 0px",
+    "gap": "normal",
+    "maxWidth": "600px",
+    "height": "78px",
+    "width": "600px"
+  },
+  "[data-badge='1']": {
+    "tag": "DIV",
+    "className": "relative z-10",
+    "text": "We’ve launched one new models, doubao-seedance-2-5  — try them now.HomeModelsCon",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1434,
+      "h": 5437.3125
+    },
+    "fontFamily": "Inter, \"Inter Fallback\"",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "color": "lab(8.34178 0.607349 -2.12998)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px solid lab(0 0 0 / 0)",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "padding": "0px 0px 0px 0px",
+    "gap": "normal",
+    "maxWidth": "none",
+    "height": "5437.31px",
+    "width": "1434px"
+  },
+  "[data-footer-inner='1']": {
+    "tag": "DIV",
+    "className": "mx-auto max-w-7xl px-4 pt-12 pb-8 sm:px-6 sm:pt-16",
+    "text": "The frontier intelligence gateway. One API. 127 models. 0.2s latency. Pay only f",
+    "rect": {
+      "x": 77,
+      "y": 5059.3125,
+      "w": 1280,
+      "h": 406
+    },
+    "fontFamily": "Inter, \"Inter Fallback\"",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "color": "rgb(255, 255, 255)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "backgroundImage": "none",
+    "border": "0px solid lab(0 0 0 / 0)",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "padding": "64px 24px 32px 24px",
+    "gap": "normal",
+    "maxWidth": "1280px",
+    "height": "406px",
+    "width": "1280px"
+  },
+  "footer": {
+    "tag": "FOOTER",
+    "className": "bg-[#1a1a1a] text-white",
+    "text": "The frontier intelligence gateway. One API. 127 models. 0.2s latency. Pay only f",
+    "rect": {
+      "x": 0,
+      "y": 5031.3125,
+      "w": 1434,
+      "h": 406
+    },
+    "fontFamily": "Inter, \"Inter Fallback\"",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "color": "rgb(255, 255, 255)",
+    "backgroundColor": "rgb(26, 26, 26)",
+    "backgroundImage": "none",
+    "border": "0px solid lab(0 0 0 / 0)",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "backdropFilter": "none",
+    "padding": "0px 0px 0px 0px",
+    "gap": "normal",
+    "maxWidth": "none",
+    "height": "406px",
+    "width": "1434px"
+  },
+  "generateDeep": {
+    "tag": "BUTTON",
+    "className": "button button--lg button--primary pointer-events-auto text-white bg-[var(--accent)] text-[var(--accent-foreground)] hover:bg-[color-mix(in_oklab,var(--accent)_90%,black)]",
+    "text": "Generate API Key",
+    "rect": {
+      "w": 165.4375,
+      "h": 40
+    },
+    "fontSize": "16px",
+    "fontWeight": "500",
+    "color": "rgb(255, 255, 255)",
+    "backgroundColor": "color(display-p3 0.908 0.393 0.168)",
+    "borderRadius": "24px",
+    "padding": "0px 16px 0px 16px",
+    "boxShadow": "none",
+    "border": "0px solid lab(0 0 0 / 0)"
+  },
+  "docsDeep": {
+    "tag": "BUTTON",
+    "className": "button button--lg button--outline pointer-events-auto border-black/15 bg-transparent text-[oklch(0.2103_0.0059_285.89)] hover:bg-black/5",
+    "text": "View Docs",
+    "rect": {
+      "w": 115.109375,
+      "h": 40
+    },
+    "fontSize": "16px",
+    "fontWeight": "500",
+    "color": "lab(8.34178 0.607349 -2.12998)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "24px",
+    "padding": "0px 16px 0px 16px",
+    "boxShadow": "none",
+    "border": "1px solid oklab(0 0 0 / 0.15)"
+  }
+}

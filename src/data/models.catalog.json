@@ -1,0 +1,2368 @@
+{
+  "count": 86,
+  "providers": [
+    {
+      "id": 1,
+      "name": "Anthropic",
+      "icon": "Claude.Color"
+    },
+    {
+      "id": 43,
+      "name": "DeepSeek",
+      "icon": "DeepSeek.Color"
+    },
+    {
+      "id": 45,
+      "name": "Doubao",
+      "icon": "Doubao.Color"
+    },
+    {
+      "id": 24,
+      "name": "Google",
+      "icon": "Gemini.Color"
+    },
+    {
+      "id": 73,
+      "name": "kling",
+      "icon": "Kling.Color"
+    },
+    {
+      "id": 47,
+      "name": "MiniMax",
+      "icon": "Minimax.Color"
+    },
+    {
+      "id": 57,
+      "name": "Moonshot",
+      "icon": "Moonshot"
+    },
+    {
+      "id": 4,
+      "name": "OpenAI",
+      "icon": "OpenAI.Color"
+    },
+    {
+      "id": 37,
+      "name": "Qwen",
+      "icon": "Qwen.Color"
+    },
+    {
+      "id": 18,
+      "name": "xAI",
+      "icon": "XAI.Color"
+    },
+    {
+      "id": 67,
+      "name": "Xiaomi MiMo",
+      "icon": "XiaomiMiMo.Color"
+    },
+    {
+      "id": 26,
+      "name": "Zhipu AI",
+      "icon": "Zhipu.Color"
+    },
+    {
+      "id": 78,
+      "name": "美团",
+      "icon": "LongCat.Color"
+    },
+    {
+      "id": 71,
+      "name": "阿里巴巴",
+      "icon": "Qwen.Color"
+    }
+  ],
+  "models": [
+    {
+      "id": "claude-haiku-4-5",
+      "name": "claude-haiku-4-5",
+      "provider": "Anthropic",
+      "providerId": 1,
+      "providerIcon": "Claude.Color",
+      "description": "Built for 高效编码与代理 tasks, advancing beyond Claude Haiku 3.5 in long context, coding, tool use, and complex planning. Compared with flagship models such as GPT, Gemini, and Qwen, it is well suited to reliable agents, codebase maintenance, and deep research workflows.",
+      "contextLabel": "200K",
+      "contextTokens": 200000,
+      "pricing": {
+        "type": "token",
+        "input": 1.1,
+        "output": 5.5,
+        "cacheRead": 0.11000000000000001
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "MiniMax-M2.7-highspeed",
+      "name": "MiniMax-M2.7-highspeed",
+      "provider": "MiniMax",
+      "providerId": 47,
+      "providerIcon": "Minimax.Color",
+      "description": "Built for text generation, reasoning, and tool use, with stronger 200K long-context and agentic workflow stability than earlier MiniMax M2.x versions. Compared with Chinese peers such as Kimi, GLM, and Qwen, it fits productivity, coding assistance, and long-document processing.",
+      "contextLabel": "200K",
+      "contextTokens": 200000,
+      "pricing": {
+        "type": "token",
+        "input": 0.63,
+        "output": 2.52,
+        "cacheRead": 0.063
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning"
+      ]
+    },
+    {
+      "id": "kling-v3",
+      "name": "kling-v3",
+      "provider": "kling",
+      "providerId": 73,
+      "providerIcon": "Kling.Color",
+      "description": "Built for text/image-to-video and multi-shot creation, improving over Kling 2.x in motion stability, camera language, and reference consistency. Compared with Veo, Runway, and Seedance, it is well suited to Chinese short drama, ad assets, and high-quality social video production.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.135
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "doubao-seedance-2-0-fast-filter-off",
+      "name": "doubao-seedance-2-0-fast-filter-off",
+      "provider": "Doubao",
+      "providerId": 45,
+      "providerIcon": "Doubao.Color",
+      "description": "Built for video generation and multi-asset video creation, improving on Seedance 1.x with more complete motion stability, audiovisual generation, and reference inputs. Compared with Veo, Kling, and Runway, it is better suited to Chinese creative workflows driven by mixed text, image, audio, and video inputs. This filter-off variant keeps the same tier of generation capability as standard Seedance 2.0 while applying looser content filtering. Useful for short drama, ads, e-commerce, and social assets.",
+      "contextLabel": "13K",
+      "contextTokens": 12800,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.135
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "name": "deepseek-v4-pro",
+      "provider": "DeepSeek",
+      "providerId": 43,
+      "providerIcon": "DeepSeek.Color",
+      "description": "Built for reasoning, coding, and agentic tool use, with stronger long-context, thinking-mode, and complex-task execution than DeepSeek V3.2. Compared with Chinese peers such as Qwen, GLM, and Kimi, it is especially competitive for math, programming, and logical reasoning tasks.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 1.71,
+        "output": 3.429918,
+        "cacheRead": 0.009918
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Long Context",
+        "Tool Use",
+        "Reasoning",
+        "Structured Output"
+      ]
+    },
+    {
+      "id": "gpt-5.5",
+      "name": "gpt-5.5",
+      "provider": "OpenAI",
+      "providerId": 4,
+      "providerIcon": "OpenAI.Color",
+      "description": "Built for reasoning, coding, visual understanding, and agent tasks, with stronger long context, tool use, and scalable reliable output than GPT-5.4. Compared with Claude, Gemini, and Qwen flagship models, it is a strong general-purpose base for reliable automation and complex knowledge workflows.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 75,
+        "output": 450
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": []
+    },
+    {
+      "id": "doubao-seedance-2.5",
+      "name": "doubao-seedance-2.5",
+      "provider": "Doubao",
+      "providerId": 45,
+      "providerIcon": "Doubao.Color",
+      "description": "Built for professional video work such as ads, branded content, and narrative shorts, with an emphasis on longer scenes, multi-asset direction, and iterative refinement. It supports text- and image-driven generation plus R2V reference control, combines multimodal assets, produces up to 30 seconds in standard mode, and can revise selected regions without regenerating the full clip. The main reasons to choose it over Seedance 2.0 are longer continuous shots, richer reference input, and more controllable post-generation fixes.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.135
+      },
+      "inputTypes": [],
+      "outputTypes": [],
+      "capabilities": []
+    },
+    {
+      "id": "claude-opus-4-7",
+      "name": "claude-opus-4-7",
+      "provider": "Anthropic",
+      "providerId": 1,
+      "providerIcon": "Claude.Color",
+      "description": "Built for 旗舰推理与复杂代理 tasks, advancing beyond Claude Opus 4.6 in long context, coding, tool use, and complex planning. Compared with flagship models such as GPT, Gemini, and Qwen, it is well suited to reliable agents, codebase maintenance, and deep research workflows.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 5,
+        "output": 25,
+        "cacheRead": 0.5
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Web Search",
+        "Tool Use",
+        "Function Calling",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "name": "claude-sonnet-4-6",
+      "provider": "Anthropic",
+      "providerId": 1,
+      "providerIcon": "Claude.Color",
+      "description": "Built for 高效编码与代理 tasks, advancing beyond Claude 4.5/4.6 前序版本 in long context, coding, tool use, and complex planning. Compared with flagship models such as GPT, Gemini, and Qwen, it is well suited to reliable agents, codebase maintenance, and deep research workflows.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 3,
+        "output": 15,
+        "cacheRead": 0.30000000000000004
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Web Search",
+        "Tool Use",
+        "Function Calling",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "claude-opus-4-5",
+      "name": "claude-opus-4-5",
+      "provider": "Anthropic",
+      "providerId": 1,
+      "providerIcon": "Claude.Color",
+      "description": "Built for 旗舰推理与复杂代理 tasks, advancing beyond Claude 4 系列前序版本 in long context, coding, tool use, and complex planning. Compared with flagship models such as GPT, Gemini, and Qwen, it is well suited to reliable agents, codebase maintenance, and deep research workflows.",
+      "contextLabel": "200K",
+      "contextTokens": 200000,
+      "pricing": {
+        "type": "token",
+        "input": 5,
+        "output": 25,
+        "cacheRead": 0.5
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "mimo-v2.5-tts-voicedesign",
+      "name": "mimo-v2.5-tts-voicedesign",
+      "provider": "Xiaomi MiMo",
+      "providerId": 67,
+      "providerIcon": "XiaomiMiMo.Color",
+      "description": "Built for one-sentence voice design and text-to-speech, with stronger V2.5-series natural-language voice creation, fine-grained pace/emotion/tone control, and low-friction voice production than MiMo V2 TTS. Compared with ElevenLabs, OpenAI TTS, and Azure Speech, it is useful for reference-free character voice design, ad voiceovers, short-video narration, and multi-style voice exploration.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "token",
+        "input": 0,
+        "output": 0
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "doubao-seed-2-0-pro",
+      "name": "doubao-seed-2-0-pro",
+      "provider": "Doubao",
+      "providerId": 45,
+      "providerIcon": "Doubao.Color",
+      "description": "Built for coding, agents, and complex productivity tasks, advancing beyond Doubao Seed 2.0 in long context, long output, and tool-oriented workflows. Compared with Qwen, GLM, and DeepSeek peers, it is a cost-effective option for Chinese office work, coding, and multi-step automation.",
+      "contextLabel": "256K",
+      "contextTokens": 256000,
+      "pricing": {
+        "type": "token",
+        "input": 75,
+        "output": 75
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Web Search",
+        "Tool Use",
+        "Function Calling",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "nano-banana-2-lite",
+      "name": "nano-banana-2-lite",
+      "provider": "Google",
+      "providerId": 24,
+      "providerIcon": "Gemini.Color",
+      "description": "This is a discounted trial route. Generation may take longer and has roughly a 10% chance of failing. It is best for cost-sensitive image generation trials where queueing and occasional failures are acceptable; for more stable production use, choose a regular route.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.02
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "gemini-3.1-flash-image-preview",
+      "name": "gemini-3.1-flash-image-preview",
+      "provider": "Google",
+      "providerId": 24,
+      "providerIcon": "Gemini.Color",
+      "description": "Built for image generation and editing, with stronger multimodal understanding, conversational edits, and rapid visual prototyping than earlier Gemini image capabilities. Compared with GPT Image, Qwen Image, and Seedream, it is useful for combining documents, images, and prompts in one visual workflow.",
+      "contextLabel": "131K",
+      "contextTokens": 131072,
+      "pricing": {
+        "type": "token",
+        "input": 75,
+        "output": 300
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputTypes": [
+        "text",
+        "image"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "happyhorse-1.0-r2v",
+      "name": "happyhorse-1.0-r2v",
+      "provider": "Qwen",
+      "providerId": 37,
+      "providerIcon": "Qwen.Color",
+      "description": "Built for reference-to-video, with a stronger audio-native workflow than 早期视频模型, generating dialogue, sound effects, and background music in one pass. Compared with Veo, Kling, and Runway, its differentiator is synchronized audiovisual generation and character-consistent workflows for short drama, ads, e-commerce, and brand marketing.",
+      "contextLabel": "8K",
+      "contextTokens": 8192,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.135
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "capabilities": []
+    },
+    {
+      "id": "veo3.1-fast",
+      "name": "veo3.1-fast",
+      "provider": "Google",
+      "providerId": 24,
+      "providerIcon": "Gemini.Color",
+      "description": "Built for high-fidelity video generation, with a more mature native-audio, camera-control, and reference-input workflow than Veo 2/3. Compared with Kling, Runway, and Seedance, it is better suited to cinematic shorts, ad storyboards, and videos requiring stable physical motion. The Fast tier is better for rapid concept validation than the standard tier.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.135
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "claude-sonnet-4-6-thinking",
+      "name": "claude-sonnet-4-6-thinking",
+      "provider": "Anthropic",
+      "providerId": 1,
+      "providerIcon": "Claude.Color",
+      "description": "The extended thinking variant of Anthropic Claude Sonnet 4.6, enabling chain-of-thought reasoning for complex problems. Excels in coding, codebase navigation, project management, document creation, and agentic tasks with text and image input. 1M context window, outperforms the standard version on tasks requiring deep reasoning, ideal for complex software engineering and multi-step planning.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 3,
+        "output": 15,
+        "cacheRead": 0.30000000000000004
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "grok-4.5",
+      "name": "grok-4.5",
+      "provider": "xAI",
+      "providerId": 18,
+      "providerIcon": "XAI.Color",
+      "description": "A frontier reasoning model for coding, knowledge work, and STEM tasks. It supports image input, function calling, and structured outputs; its 500K-token context suits cross-file analysis and long source material. Prefer a lower-cost model when frontier reasoning is unnecessary.",
+      "contextLabel": "500K",
+      "contextTokens": 500000,
+      "pricing": {
+        "type": "token",
+        "input": 2.1,
+        "output": 6.300000000000001,
+        "cacheRead": 0.525
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Function Calling",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "veo3.1",
+      "name": "veo3.1",
+      "provider": "Google",
+      "providerId": 24,
+      "providerIcon": "Gemini.Color",
+      "description": "Built for high-fidelity video generation, with a more mature native-audio, camera-control, and reference-input workflow than Veo 2/3. Compared with Kling, Runway, and Seedance, it is better suited to cinematic shorts, ad storyboards, and videos requiring stable physical motion. ",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.135
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "qwen-image-2.0-pro",
+      "name": "qwen-image-2.0-pro",
+      "provider": "Qwen",
+      "providerId": 37,
+      "providerIcon": "Qwen.Color",
+      "description": "Built for image generation and editing, improving over Qwen Image 1.x in Chinese text rendering, instruction following, and complex layouts. Compared with GPT Image, Gemini image models, and Seedream, it is well suited to Chinese posters, e-commerce images, infographics, and iterative visual creation.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "token",
+        "input": 2.2,
+        "output": 2.2
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "gpt-image-2-image-to-image",
+      "name": "gpt-image-2-image-to-image",
+      "provider": "OpenAI",
+      "providerId": 4,
+      "providerIcon": "OpenAI.Color",
+      "description": "This is a discounted trial route. Generation may take longer and has roughly a 10% chance of failing. It is best for cost-sensitive image generation trials where queueing and occasional failures are acceptable; for more stable production use, choose a regular route.",
+      "contextLabel": "128K",
+      "contextTokens": 128000,
+      "pricing": {
+        "type": "token",
+        "input": 75,
+        "output": 150
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "claude-opus-4-7-thinking",
+      "name": "claude-opus-4-7-thinking",
+      "provider": "Anthropic",
+      "providerId": 1,
+      "providerIcon": "Claude.Color",
+      "description": "Built for 旗舰推理与复杂代理 tasks, advancing beyond Claude Opus 4.6 in long context, coding, tool use, and complex planning. Compared with flagship models such as GPT, Gemini, and Qwen, it is well suited to reliable agents, codebase maintenance, and deep research workflows.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 5,
+        "output": 25,
+        "cacheRead": 0.5
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "glm-5.1",
+      "name": "glm-5.1",
+      "provider": "Zhipu AI",
+      "providerId": 26,
+      "providerIcon": "Zhipu.Color",
+      "description": "Built for reasoning, coding, and long-context agent tasks, improving over GLM-5 in context length, tool use, and complex multi-step workflows. Compared with Chinese flagship peers such as Qwen, DeepSeek, and Kimi, it fits enterprise automation, project-level code analysis, and knowledge work in Chinese.",
+      "contextLabel": "200K",
+      "contextTokens": 200000,
+      "pricing": {
+        "type": "token",
+        "input": 1.14,
+        "output": 4.000031999999999,
+        "cacheRead": 0.286026
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Long Context",
+        "Tool Use",
+        "Reasoning",
+        "Structured Output"
+      ]
+    },
+    {
+      "id": "nano-banana-pro",
+      "name": "nano-banana-pro",
+      "provider": "Google",
+      "providerId": 24,
+      "providerIcon": "Gemini.Color",
+      "description": "This is a discounted trial route. Generation may take longer and has roughly a 10% chance of failing. It is best for cost-sensitive image generation trials where queueing and occasional failures are acceptable; for more stable production use, choose a regular route.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "token",
+        "input": 75,
+        "output": 75
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "nano-banana-2",
+      "name": "nano-banana-2",
+      "provider": "Google",
+      "providerId": 24,
+      "providerIcon": "Gemini.Color",
+      "description": "This is a discounted trial route. Generation may take longer and has roughly a 10% chance of failing. It is best for cost-sensitive image generation trials where queueing and occasional failures are acceptable; for more stable production use, choose a regular route.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "token",
+        "input": 75,
+        "output": 75
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "DeepSeek-V3.2-Thinking",
+      "name": "DeepSeek-V3.2-Thinking",
+      "provider": "DeepSeek",
+      "providerId": 43,
+      "providerIcon": "DeepSeek.Color",
+      "description": "Built for reasoning, coding, and agentic tool use, with stronger long-context, thinking-mode, and complex-task execution than DeepSeek V3.1. Compared with Chinese peers such as Qwen, GLM, and Kimi, it is especially competitive for math, programming, and logical reasoning tasks.",
+      "contextLabel": "128K",
+      "contextTokens": 128000,
+      "pricing": {
+        "type": "token",
+        "input": 0.31,
+        "output": 0.469991,
+        "cacheRead": 0.030008
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Long Context",
+        "Tool Use",
+        "Reasoning",
+        "Structured Output"
+      ]
+    },
+    {
+      "id": "mimo-v2.5-tts",
+      "name": "mimo-v2.5-tts",
+      "provider": "Xiaomi MiMo",
+      "providerId": 67,
+      "providerIcon": "XiaomiMiMo.Color",
+      "description": "Built for text-to-speech, voice design, and voice cloning, with stronger V2.5-series natural speech synthesis, fine-grained pace/emotion/tone control, and low-friction voice creation than MiMo V2 TTS. Compared with ElevenLabs, OpenAI TTS, and Azure Speech, it is well suited to Chinese narration, character dubbing, short-video audio, and multilingual voice production.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "token",
+        "input": 0,
+        "output": 0
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "MiniMax-M2.7",
+      "name": "MiniMax-M2.7",
+      "provider": "MiniMax",
+      "providerId": 47,
+      "providerIcon": "Minimax.Color",
+      "description": "Built for text generation, reasoning, and tool use, with stronger 200K long-context and agentic workflow stability than earlier MiniMax M2.x versions. Compared with Chinese peers such as Kimi, GLM, and Qwen, it fits productivity, coding assistance, and long-document processing.",
+      "contextLabel": "200K",
+      "contextTokens": 200000,
+      "pricing": {
+        "type": "token",
+        "input": 0.315,
+        "output": 1.26,
+        "cacheRead": 0.063
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning"
+      ]
+    },
+    {
+      "id": "kimi-k2.5",
+      "name": "kimi-k2.5",
+      "provider": "Moonshot",
+      "providerId": 57,
+      "providerIcon": "Moonshot",
+      "description": "Built for long-context, multi-step tool use, and code/document workflows, with stronger engineering-task stability and context capacity than Kimi K2. Compared with Qwen, GLM, and DeepSeek, it is well suited to Chinese long-document analysis, project Q&A, and everyday agentic programming.",
+      "contextLabel": "256K",
+      "contextTokens": 256000,
+      "pricing": {
+        "type": "token",
+        "input": 0.6,
+        "output": 3.15,
+        "cacheRead": 0.10001999999999998
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Long Context",
+        "Tool Use",
+        "Reasoning"
+      ]
+    },
+    {
+      "id": "grok-4.3",
+      "name": "grok-4.3",
+      "provider": "xAI",
+      "providerId": 18,
+      "providerIcon": "XAI.Color",
+      "description": "Built for real-time reasoning, coding, and long-context tasks, with stronger long-context handling and fast responses than earlier Grok 4.x versions. Compared with GPT, Claude, and Gemini, it is useful for trend analysis, coding assistance, and connected-information workflows in the xAI ecosystem.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 1.31,
+        "output": 2.62,
+        "cacheRead": 0.209993
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "grok-imagine-video-1-5-preview",
+      "name": "grok-imagine-video-1-5-preview",
+      "provider": "xAI",
+      "providerId": 18,
+      "providerIcon": "XAI.Color",
+      "description": "Built for image/video-driven generation, editing, and extension, with stronger motion consistency and fast social-content production than Grok Imagine 1.0. Compared with Veo, Kling, and Runway, it fits short-form videos, ad concepts, and trend-driven assets in the xAI ecosystem.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.135
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "qwen3.6-max-preview",
+      "name": "qwen3.6-max-preview",
+      "provider": "Qwen",
+      "providerId": 37,
+      "providerIcon": "Qwen.Color",
+      "description": "Alibaba Qwen 3.6 Max Preview, a sparse mixture-of-experts model with ~1 trillion parameters. Optimized for agentic coding, tool use, and long-context reasoning with an integrated thinking mode that preserves reasoning traces across multi-turn conversations. 262K context window, available via Alibaba Cloud Model Studio API.",
+      "contextLabel": "262K",
+      "contextTokens": 262144,
+      "pricing": {
+        "type": "token",
+        "input": 75,
+        "output": 75
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "mimo-v2.5-pro",
+      "name": "mimo-v2.5-pro",
+      "provider": "Xiaomi MiMo",
+      "providerId": 67,
+      "providerIcon": "XiaomiMiMo.Color",
+      "description": "Built for agents, coding, and long-context tasks, offering more complete multimodal understanding, a million-token context window, and long-horizon reasoning than MiMo V2. Compared with Chinese peers such as Qwen, GLM, and DeepSeek, its strengths are Xiaomi ecosystem fit and engineering automation scenarios.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 75,
+        "output": 75
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "gemini-2.5-flash-image",
+      "name": "gemini-2.5-flash-image",
+      "provider": "Google",
+      "providerId": 24,
+      "providerIcon": "Gemini.Color",
+      "description": "Built for image generation and editing, with stronger multimodal understanding, conversational edits, and rapid visual prototyping than earlier Gemini image capabilities. Compared with GPT Image, Qwen Image, and Seedream, it is useful for combining documents, images, and prompts in one visual workflow.",
+      "contextLabel": "66K",
+      "contextTokens": 65536,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.0585
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "text",
+        "image"
+      ],
+      "capabilities": [
+        "Structured Output",
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "happyhorse-1.1-i2v",
+      "name": "happyhorse-1.1-i2v",
+      "provider": "阿里巴巴",
+      "providerId": 71,
+      "providerIcon": "Qwen.Color",
+      "description": "Built for image-to-video, with a stronger audio-native workflow than HappyHorse 1.0, generating dialogue, sound effects, and background music in one pass. Compared with Veo, Kling, and Runway, its differentiator is synchronized audiovisual generation and character-consistent workflows for short drama, ads, e-commerce, and brand marketing.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.135
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "happyhorse-1.1-r2v",
+      "name": "happyhorse-1.1-r2v",
+      "provider": "阿里巴巴",
+      "providerId": 71,
+      "providerIcon": "Qwen.Color",
+      "description": "Built for reference-to-video, with a stronger audio-native workflow than HappyHorse 1.0, generating dialogue, sound effects, and background music in one pass. Compared with Veo, Kling, and Runway, its differentiator is synchronized audiovisual generation and character-consistent workflows for short drama, ads, e-commerce, and brand marketing.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.135
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "gemini-omni-video",
+      "name": "gemini-omni-video",
+      "provider": "Google",
+      "providerId": 24,
+      "providerIcon": "Gemini.Color",
+      "description": "Built for any-input-to-video multimodal creation, putting stronger emphasis than earlier Gemini video workflows on unified orchestration of text, image, audio, and video materials. Compared with Veo, Kling, and Runway, it is better for integrating complex multimodal assets into one creative workflow.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "token",
+        "input": 75,
+        "output": 300
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "glm-image",
+      "name": "glm-image",
+      "provider": "Zhipu AI",
+      "providerId": 26,
+      "providerIcon": "Zhipu.Color",
+      "description": "Built for image generation and editing, with a stronger focus than earlier GLM vision capabilities on Chinese prompts, image-text understanding, and controllable generation. Compared with GPT Image, Gemini image models, and Qwen Image, it fits Chinese marketing assets, explanatory visuals, and iterative visual edits.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "token",
+        "input": 0.88,
+        "output": 3.5500079999999996
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "kimi-k3",
+      "name": "kimi-k3",
+      "provider": "Moonshot",
+      "providerId": 57,
+      "providerIcon": "Moonshot",
+      "description": "Moonshot flagship model with native vision and up to a 1M-token context window. It currently runs at max reasoning effort and suits long-horizon coding, knowledge work, and complex tasks that coordinate terminal tools. For stable use, preserve the full reasoning history and start a new session in a compatible agent harness.",
+      "contextLabel": "1.05M",
+      "contextTokens": 1048576,
+      "pricing": {
+        "type": "token",
+        "input": 3,
+        "output": 15,
+        "cacheRead": 0.30000000000000004
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "gemini-3-pro-image-preview",
+      "name": "gemini-3-pro-image-preview",
+      "provider": "Google",
+      "providerId": 24,
+      "providerIcon": "Gemini.Color",
+      "description": "Built for image generation and editing, with stronger multimodal understanding, conversational edits, and rapid visual prototyping than earlier Gemini image capabilities. Compared with GPT Image, Qwen Image, and Seedream, it is useful for combining documents, images, and prompts in one visual workflow.",
+      "contextLabel": "66K",
+      "contextTokens": 65536,
+      "pricing": {
+        "type": "token",
+        "input": 75,
+        "output": 4500
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputTypes": [
+        "text",
+        "image"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "gpt-5.4-mini",
+      "name": "gpt-5.4-mini",
+      "provider": "OpenAI",
+      "providerId": 4,
+      "providerIcon": "OpenAI.Color",
+      "description": "Built for reasoning, coding, visual understanding, and agent tasks, with stronger long context, tool use, and scalable reliable output than GPT-5.3. Compared with Claude, Gemini, and Qwen flagship models, it is a strong general-purpose base for reliable automation and complex knowledge workflows.",
+      "contextLabel": "400K",
+      "contextTokens": 400000,
+      "pricing": {
+        "type": "token",
+        "input": 0.75,
+        "output": 4.5,
+        "cacheRead": 0.07500000000000001
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Long Context",
+        "Tool Use",
+        "Reasoning",
+        "Structured Output"
+      ]
+    },
+    {
+      "id": "gpt-image-2",
+      "name": "gpt-image-2",
+      "provider": "OpenAI",
+      "providerId": 4,
+      "providerIcon": "OpenAI.Color",
+      "description": "Built for high-quality image generation and editing, improving over GPT Image 1.x in text rendering, local editing, and multi-turn consistency. Compared with Gemini image models, Qwen Image, and Seedream, it is well suited to brand visuals, ad design, product imagery, and tightly controlled creative workflows.",
+      "contextLabel": "128K",
+      "contextTokens": 128000,
+      "pricing": {
+        "type": "token",
+        "input": 75,
+        "output": 150
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "veo3.1-lite",
+      "name": "veo3.1-lite",
+      "provider": "Google",
+      "providerId": 24,
+      "providerIcon": "Gemini.Color",
+      "description": "Built for high-fidelity video generation, with a more mature native-audio, camera-control, and reference-input workflow than Veo 2/3. Compared with Kling, Runway, and Seedance, it is better suited to cinematic shorts, ad storyboards, and videos requiring stable physical motion. The Lite tier favors high-throughput, lower-cost drafts over the standard tier.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.135
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "doubao-seedance-2-0",
+      "name": "doubao-seedance-2-0",
+      "provider": "Doubao",
+      "providerId": 45,
+      "providerIcon": "Doubao.Color",
+      "description": "Built for video generation and multi-asset video creation, improving on Seedance 1.x with more complete motion stability, audiovisual generation, and reference inputs. Compared with Veo, Kling, and Runway, it is better suited to Chinese creative workflows driven by mixed text, image, audio, and video inputs. Useful for short drama, ads, e-commerce, and social assets.",
+      "contextLabel": "8K",
+      "contextTokens": 8192,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.135
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "outputTypes": [
+        "video",
+        "audio"
+      ],
+      "capabilities": []
+    },
+    {
+      "id": "gpt-5.4",
+      "name": "gpt-5.4",
+      "provider": "OpenAI",
+      "providerId": 4,
+      "providerIcon": "OpenAI.Color",
+      "description": "Built for reasoning, coding, visual understanding, and agent tasks, with stronger long context, tool use, and scalable reliable output than GPT-5.3. Compared with Claude, Gemini, and Qwen flagship models, it is a strong general-purpose base for reliable automation and complex knowledge workflows.",
+      "contextLabel": "1.05M",
+      "contextTokens": 1050000,
+      "pricing": {
+        "type": "token",
+        "input": 75,
+        "output": 450
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Long Context",
+        "Tool Use",
+        "Reasoning",
+        "Structured Output"
+      ]
+    },
+    {
+      "id": "gpt-image-2-text-to-image",
+      "name": "gpt-image-2-text-to-image",
+      "provider": "OpenAI",
+      "providerId": 4,
+      "providerIcon": "OpenAI.Color",
+      "description": "This is a discounted trial route. Generation may take longer and has roughly a 10% chance of failing. It is best for cost-sensitive image generation trials where queueing and occasional failures are acceptable; for more stable production use, choose a regular route.",
+      "contextLabel": "128K",
+      "contextTokens": 128000,
+      "pricing": {
+        "type": "token",
+        "input": 75,
+        "output": 150
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "claude-fable-5",
+      "name": "claude-fable-5",
+      "provider": "Anthropic",
+      "providerId": 1,
+      "providerIcon": "Claude.Color",
+      "description": "Anthropic's most capable widely released model, built for the most demanding reasoning and long-horizon agentic work. Offers a 1M-token context window with 128k max output and always-on adaptive thinking, excelling at autonomously exploring underspecified tasks, planning, and carrying long-running coding and multi-agent orchestration further before it needs human input.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 12.5,
+        "output": 50
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "doubao-seedream-5.0-lite",
+      "name": "doubao-seedream-5.0-lite",
+      "provider": "Doubao",
+      "providerId": 45,
+      "providerIcon": "Doubao.Color",
+      "description": "Built for image generation and editing, with stronger Chinese instruction following, visual reasoning, and high-frequency creative production than Seedream 4.x. Compared with GPT Image, Gemini image models, and Qwen Image, it is well suited to ByteDance-ecosystem ad design, e-commerce assets, and multi-scenario visual production.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.035
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "capabilities": [
+        "Web Search",
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "dreamina-seedance-2-0-mini",
+      "name": "dreamina-seedance-2-0-mini",
+      "provider": "Doubao",
+      "providerId": 45,
+      "providerIcon": "Doubao.Color",
+      "description": "A lighter Seedance 2.0 tier for video creation, useful for quickly turning text or reference images into short video assets for social, ecommerce, and creative drafts. It is oriented toward rapid iteration and asset production; review motion, camera behavior, and subject consistency before final selection.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.135
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "doubao-seedance-2-0-filter-off",
+      "name": "doubao-seedance-2-0-filter-off",
+      "provider": "Doubao",
+      "providerId": 45,
+      "providerIcon": "Doubao.Color",
+      "description": "Built for video generation and multi-asset video creation, improving on Seedance 1.x with more complete motion stability, audiovisual generation, and reference inputs. Compared with Veo, Kling, and Runway, it is better suited to Chinese creative workflows driven by mixed text, image, audio, and video inputs. This filter-off variant keeps the same tier of generation capability as standard Seedance 2.0 while applying looser content filtering. Useful for short drama, ads, e-commerce, and social assets.",
+      "contextLabel": "13K",
+      "contextTokens": 12800,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.135
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "doubao-seed-2-1-pro",
+      "name": "doubao-seed-2-1-pro",
+      "provider": "Doubao",
+      "providerId": 45,
+      "providerIcon": "Doubao.Color",
+      "description": "Built for coding, agents, and complex productivity tasks, advancing beyond Doubao Seed 2.0 in long context, long output, and tool-oriented workflows. Compared with Qwen, GLM, and DeepSeek peers, it is a cost-effective option for Chinese office work, coding, and multi-step automation.",
+      "contextLabel": "256K",
+      "contextTokens": 256000,
+      "pricing": {
+        "type": "token",
+        "input": 0.97,
+        "output": 4.879973,
+        "cacheRead": 0.19497
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Function Calling",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "gemini-3.1-pro-preview",
+      "name": "gemini-3.1-pro-preview",
+      "provider": "Google",
+      "providerId": 24,
+      "providerIcon": "Gemini.Color",
+      "description": "Built for multimodal understanding, coding, and long-context tasks, improving over Gemini 3.0 / 2.5 in throughput, context, and tool capabilities. Compared with GPT, Claude, and Qwen models, it is strong for unified analysis workflows across text, images, audio, video, and documents.",
+      "contextLabel": "1.05M",
+      "contextTokens": 1048576,
+      "pricing": {
+        "type": "token",
+        "input": 75,
+        "output": 300
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "audio",
+        "video",
+        "file"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Long Context"
+      ]
+    },
+    {
+      "id": "claude-opus-4-6",
+      "name": "claude-opus-4-6",
+      "provider": "Anthropic",
+      "providerId": 1,
+      "providerIcon": "Claude.Color",
+      "description": "Built for 旗舰推理与复杂代理 tasks, advancing beyond Claude 4.5/4.6 前序版本 in long context, coding, tool use, and complex planning. Compared with flagship models such as GPT, Gemini, and Qwen, it is well suited to reliable agents, codebase maintenance, and deep research workflows.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 5,
+        "output": 25,
+        "cacheRead": 0.5
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Web Search",
+        "Tool Use",
+        "Function Calling",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "claude-sonnet-5",
+      "name": "claude-sonnet-5",
+      "provider": "Anthropic",
+      "providerId": 1,
+      "providerIcon": "Claude.Color",
+      "description": "A daily-driver Sonnet-tier model aimed at bringing near-frontier agentic, coding, and knowledge-work capability at a lower operating cost. Its default 1M-token context and adaptive thinking fit long documents, codebases, and multi-step tool workflows; for the deepest reasoning or restricted high-risk security work, evaluate higher-tier or specialized models.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 2,
+        "output": 10,
+        "cacheRead": 0.2
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "qwen3.5-flash",
+      "name": "qwen3.5-flash",
+      "provider": "Qwen",
+      "providerId": 37,
+      "providerIcon": "Qwen.Color",
+      "description": "The fast, lower-cost hosted Qwen 3.5 tier for high-frequency chat, summarization, classification, lightweight coding, visual/video understanding, and batch agent routes. It keeps 1M context and built-in tools, but trades off some stability on harder reasoning or high-stakes output; move important tasks to Plus.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 0.0248,
+        "output": 0.24830008,
+        "cacheRead": 0.0031
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Function Calling",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "gemini-3.6-flash",
+      "name": "gemini-3.6-flash",
+      "provider": "Google",
+      "providerId": 24,
+      "providerIcon": "Gemini.Color",
+      "description": "",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "token",
+        "input": 1.5,
+        "output": 7.5,
+        "cacheRead": 0.15000000000000002
+      },
+      "inputTypes": [],
+      "outputTypes": [],
+      "capabilities": []
+    },
+    {
+      "id": "doubao-seedream-5-0-pro",
+      "name": "doubao-seedream-5-0-pro",
+      "provider": "Doubao",
+      "providerId": 45,
+      "providerIcon": "Doubao.Color",
+      "description": "A multimodal image-generation model for professional visual creation. It can generate images from text and perform precise edits with reference images and spatial annotations, with strengths in dense infographics, typography, realistic lighting, and multilingual text rendering.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "token",
+        "input": 75,
+        "output": 75
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "qwen3.7-plus",
+      "name": "qwen3.7-plus",
+      "provider": "Qwen",
+      "providerId": 37,
+      "providerIcon": "Qwen.Color",
+      "description": "Designed for agentic workloads, coding, and office productivity, with a stronger combined focus on long context, tool calling, and structured output than Qwen3.6. Compared with flagship models such as GPT, Claude, and Gemini, it is a cost-effective alternative for Chinese, coding, and multi-step tool workflows.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 0.3,
+        "output": 1.2,
+        "cacheRead": 0.06
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Function Calling",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "deepseek-v3.2",
+      "name": "deepseek-v3.2",
+      "provider": "DeepSeek",
+      "providerId": 43,
+      "providerIcon": "DeepSeek.Color",
+      "description": "Built for reasoning, coding, and agentic tool use, with stronger long-context, thinking-mode, and complex-task execution than DeepSeek V3.1. Compared with Chinese peers such as Qwen, GLM, and Kimi, it is especially competitive for math, programming, and logical reasoning tasks.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "token",
+        "input": 0.21,
+        "output": 0.319998,
+        "cacheRead": 0.043008
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use"
+      ]
+    },
+    {
+      "id": "qwen3.7-max",
+      "name": "qwen3.7-max",
+      "provider": "Qwen",
+      "providerId": 37,
+      "providerIcon": "Qwen.Color",
+      "description": "Designed for agentic workloads, coding, and office productivity, with a stronger combined focus on long context, tool calling, and structured output than Qwen3.6. Compared with flagship models such as GPT, Claude, and Gemini, it is a cost-effective alternative for Chinese, coding, and multi-step tool workflows.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 1.8,
+        "output": 5.4,
+        "cacheRead": 0.36000000000000004
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Function Calling",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "glm-5.2",
+      "name": "glm-5.2",
+      "provider": "Zhipu AI",
+      "providerId": 26,
+      "providerIcon": "Zhipu.Color",
+      "description": "Built for reasoning, coding, and long-context agent tasks, improving over GLM-5.1 in context length, tool use, and complex multi-step workflows. Compared with Chinese flagship peers such as Qwen, DeepSeek, and Kimi, it fits enterprise automation, project-level code analysis, and knowledge work in Chinese.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 1.14,
+        "output": 4.000031999999999,
+        "cacheRead": 0.286026
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Function Calling",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "mimo-v2.5",
+      "name": "mimo-v2.5",
+      "provider": "Xiaomi MiMo",
+      "providerId": 67,
+      "providerIcon": "XiaomiMiMo.Color",
+      "description": "Built for agents, coding, and long-context tasks, offering more complete multimodal understanding, a million-token context window, and long-horizon reasoning than MiMo V2. Compared with Chinese peers such as Qwen, GLM, and DeepSeek, its strengths are Xiaomi ecosystem fit and engineering automation scenarios.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 75,
+        "output": 75
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "qwen-image-2.0",
+      "name": "qwen-image-2.0",
+      "provider": "Qwen",
+      "providerId": 37,
+      "providerIcon": "Qwen.Color",
+      "description": "Built for image generation and editing, improving over Qwen Image 1.x in Chinese text rendering, instruction following, and complex layouts. Compared with GPT Image, Gemini image models, and Seedream, it is well suited to Chinese posters, e-commerce images, infographics, and iterative visual creation.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "token",
+        "input": 2.2,
+        "output": 2.2
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "image"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "MiniMax-M3",
+      "name": "MiniMax-M3",
+      "provider": "MiniMax",
+      "providerId": 47,
+      "providerIcon": "Minimax.Color",
+      "description": "Built for long-horizon coding, tool use, and multi-turn production collaboration, extending beyond MiniMax M2.7 with multimodal inputs while keeping a 1M-token context window. Compared with Claude, Gemini, and GLM-5.2 long-context agent models, it is better for putting text, image, and video materials into one workflow.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 1.26,
+        "output": 5.04,
+        "cacheRead": 0.252
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Function Calling",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "doubao-seedance-2-0-fast",
+      "name": "doubao-seedance-2-0-fast",
+      "provider": "Doubao",
+      "providerId": 45,
+      "providerIcon": "Doubao.Color",
+      "description": "Built for video generation and multi-asset video creation, improving on Seedance 1.x with more complete motion stability, audiovisual generation, and reference inputs. Compared with Veo, Kling, and Runway, it is better suited to Chinese creative workflows driven by mixed text, image, audio, and video inputs. The fast variant is better for rapid iteration and batch production than the standard tier. Useful for short drama, ads, e-commerce, and social assets.",
+      "contextLabel": "8K",
+      "contextTokens": 8192,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.135
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "outputTypes": [
+        "video",
+        "audio"
+      ],
+      "capabilities": []
+    },
+    {
+      "id": "gemini-3-flash-preview",
+      "name": "gemini-3-flash-preview",
+      "provider": "Google",
+      "providerId": 24,
+      "providerIcon": "Gemini.Color",
+      "description": "Google's high-speed thinking model designed for agentic workflows, multi-turn chat, and coding assistance. Supports text, image, audio, video, and PDF input with a 1M token context window. Features configurable thinking levels, tool use, and structured output. Broad quality improvements over Gemini 2.5 Flash across reasoning, multimodal understanding, and reliability.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 0.5,
+        "output": 3,
+        "cacheRead": 0.05
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "audio",
+        "video",
+        "file"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Function Calling",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "glm-5",
+      "name": "glm-5",
+      "provider": "Zhipu AI",
+      "providerId": 26,
+      "providerIcon": "Zhipu.Color",
+      "description": "Built for reasoning, coding, and long-context agent tasks, improving over GLM-4.5 in context length, tool use, and complex multi-step workflows. Compared with Chinese flagship peers such as Qwen, DeepSeek, and Kimi, it fits enterprise automation, project-level code analysis, and knowledge work in Chinese.",
+      "contextLabel": "200K",
+      "contextTokens": 200000,
+      "pricing": {
+        "type": "token",
+        "input": 0.86,
+        "output": 3.1400319999999997,
+        "cacheRead": 0.210012
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Long Context",
+        "Tool Use",
+        "Reasoning",
+        "Structured Output"
+      ]
+    },
+    {
+      "id": "happyhorse-1.0-video-edit",
+      "name": "happyhorse-1.0-video-edit",
+      "provider": "Qwen",
+      "providerId": 37,
+      "providerIcon": "Qwen.Color",
+      "description": "Built for video editing, with a stronger audio-native workflow than 早期视频模型, generating dialogue, sound effects, and background music in one pass. Compared with Veo, Kling, and Runway, its differentiator is synchronized audiovisual generation and character-consistent workflows for short drama, ads, e-commerce, and brand marketing.",
+      "contextLabel": "8K",
+      "contextTokens": 8192,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.135
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "capabilities": []
+    },
+    {
+      "id": "claude-opus-4-8",
+      "name": "claude-opus-4-8",
+      "provider": "Anthropic",
+      "providerId": 1,
+      "providerIcon": "Claude.Color",
+      "description": "Built for 旗舰推理与复杂代理 tasks, advancing beyond Claude Opus 4.7 in long context, coding, tool use, and complex planning. Compared with flagship models such as GPT, Gemini, and Qwen, it is well suited to reliable agents, codebase maintenance, and deep research workflows.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 5,
+        "output": 25,
+        "cacheRead": 0.5
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "qwen3.6-flash",
+      "name": "qwen3.6-flash",
+      "provider": "Qwen",
+      "providerId": 37,
+      "providerIcon": "Qwen.Color",
+      "description": "Designed for agentic workloads, coding, and office productivity, with a stronger combined focus on long context, tool calling, and structured output than Qwen3.5. Compared with flagship models such as GPT, Claude, and Gemini, it is a cost-effective alternative for Chinese, coding, and multi-step tool workflows.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 75,
+        "output": 75
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "MiniMax-M2.5",
+      "name": "MiniMax-M2.5",
+      "provider": "MiniMax",
+      "providerId": 47,
+      "providerIcon": "Minimax.Color",
+      "description": "A cost-efficient model for real productivity agents, strongest in coding, tool use, search, and office-style deliverables rather than casual chat alone. It fits agents that plan and execute cross-file changes, research retrieval, and document/spreadsheet/presentation workflows; versus more expensive flagships, the main tradeoff is lower cost for near-frontier execution efficiency.",
+      "contextLabel": "205K",
+      "contextTokens": 204800,
+      "pricing": {
+        "type": "token",
+        "input": 0.302,
+        "output": 1.207698,
+        "cacheRead": 0.029414799999999998
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Function Calling",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "kimi-k2.7-code-highspeed",
+      "name": "kimi-k2.7-code-highspeed",
+      "provider": "Moonshot",
+      "providerId": 57,
+      "providerIcon": "Moonshot",
+      "description": "Built for long-context, multi-step tool use, and code/document workflows, with stronger engineering-task stability and context capacity than Kimi K2.6. Compared with Qwen, GLM, and DeepSeek, it is well suited to Chinese long-document analysis, project Q&A, and everyday agentic programming.",
+      "contextLabel": "256K",
+      "contextTokens": 256000,
+      "pricing": {
+        "type": "token",
+        "input": 1.9,
+        "output": 7.999949999999999,
+        "cacheRead": 0.31995999999999997
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Tool Use",
+        "Function Calling",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "dreamina-seedance-2-0-mini-filter-off",
+      "name": "dreamina-seedance-2-0-mini-filter-off",
+      "provider": "Doubao",
+      "providerId": 45,
+      "providerIcon": "Doubao.Color",
+      "description": "Built for video generation and multi-asset video creation, improving on Seedance 1.x with more complete motion stability, audiovisual generation, and reference inputs. Compared with Veo, Kling, and Runway, it is better suited to Chinese creative workflows driven by mixed text, image, audio, and video inputs. This filter-off variant keeps the same tier of generation capability as standard Seedance 2.0 while applying looser content filtering. Useful for short drama, ads, e-commerce, and social assets.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.135
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "qwen3.6-plus",
+      "name": "qwen3.6-plus",
+      "provider": "Qwen",
+      "providerId": 37,
+      "providerIcon": "Qwen.Color",
+      "description": "Designed for agentic workloads, coding, and office productivity, with a stronger combined focus on long context, tool calling, and structured output than Qwen3.5. Compared with flagship models such as GPT, Claude, and Gemini, it is a cost-effective alternative for Chinese, coding, and multi-step tool workflows.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 1.14,
+        "output": 6.8599499999999995,
+        "cacheRead": 0.029981999999999998
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "kling-v3-omni",
+      "name": "kling-v3-omni",
+      "provider": "kling",
+      "providerId": 73,
+      "providerIcon": "Kling.Color",
+      "description": "Built for text/image-to-video and multi-shot creation, improving over Kling 2.x in motion stability, camera language, and reference consistency. Compared with Veo, Runway, and Seedance, it is well suited to Chinese short drama, ad assets, and high-quality social video production.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.135
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "gemini-3.5-flash",
+      "name": "gemini-3.5-flash",
+      "provider": "Google",
+      "providerId": 24,
+      "providerIcon": "Gemini.Color",
+      "description": "Built for multimodal understanding, coding, and long-context tasks, improving over Gemini 3.1 in throughput, context, and tool capabilities. Compared with GPT, Claude, and Qwen models, it is strong for unified analysis workflows across text, images, audio, video, and documents.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 1.5,
+        "output": 9,
+        "cacheRead": 1.0000499999999999
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "audio",
+        "video",
+        "file"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Web Search",
+        "Tool Use",
+        "Function Calling",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "happyhorse-1.0-t2v",
+      "name": "happyhorse-1.0-t2v",
+      "provider": "Qwen",
+      "providerId": 37,
+      "providerIcon": "Qwen.Color",
+      "description": "Built for text-to-video, with a stronger audio-native workflow than 早期视频模型, generating dialogue, sound effects, and background music in one pass. Compared with Veo, Kling, and Runway, its differentiator is synchronized audiovisual generation and character-consistent workflows for short drama, ads, e-commerce, and brand marketing.",
+      "contextLabel": "8K",
+      "contextTokens": 8192,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.135
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "capabilities": []
+    },
+    {
+      "id": "deepseek-v4-flash",
+      "name": "deepseek-v4-flash",
+      "provider": "DeepSeek",
+      "providerId": 43,
+      "providerIcon": "DeepSeek.Color",
+      "description": "Built for reasoning, coding, and agentic tool use, with stronger long-context, thinking-mode, and complex-task execution than DeepSeek V3.2. Compared with Chinese peers such as Qwen, GLM, and Kimi, it is especially competitive for math, programming, and logical reasoning tasks.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 0.142,
+        "output": 0.2860022,
+        "cacheRead": 0.0199936
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Long Context",
+        "Tool Use",
+        "Reasoning",
+        "Structured Output"
+      ]
+    },
+    {
+      "id": "LongCat-2.0",
+      "name": "LongCat-2.0",
+      "provider": "美团",
+      "providerId": 78,
+      "providerIcon": "LongCat.Color",
+      "description": "A LongCat 2.0 workhorse for project-scale coding and long-running agent tasks, with native 1M-token context plus tool calling and multi-step reasoning. It is best when you need to keep large repositories, long documents, or automation workflows in scope; for lightweight Q&A or low-latency chat, a smaller Flash/Lite-style model is usually cheaper.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 0.3,
+        "output": 1.2,
+        "cacheRead": 0.006
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Function Calling",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "kimi-k2.6",
+      "name": "kimi-k2.6",
+      "provider": "Moonshot",
+      "providerId": 57,
+      "providerIcon": "Moonshot",
+      "description": "Built for long-context, multi-step tool use, and code/document workflows, with stronger engineering-task stability and context capacity than Kimi K2.5. Compared with Qwen, GLM, and DeepSeek, it is well suited to Chinese long-document analysis, project Q&A, and everyday agentic programming.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "token",
+        "input": 0.93,
+        "output": 3.8599650000000003,
+        "cacheRead": 0.15996
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Tool Use",
+        "Reasoning"
+      ]
+    },
+    {
+      "id": "happyhorse-1.1-t2v",
+      "name": "happyhorse-1.1-t2v",
+      "provider": "阿里巴巴",
+      "providerId": 71,
+      "providerIcon": "Qwen.Color",
+      "description": "Built for text-to-video, with a stronger audio-native workflow than HappyHorse 1.0, generating dialogue, sound effects, and background music in one pass. Compared with Veo, Kling, and Runway, its differentiator is synchronized audiovisual generation and character-consistent workflows for short drama, ads, e-commerce, and brand marketing.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.135
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "qwen3.5-plus",
+      "name": "qwen3.5-plus",
+      "provider": "Qwen",
+      "providerId": 37,
+      "providerIcon": "Qwen.Color",
+      "description": "The higher-performance hosted Qwen 3.5 tier for complex writing, visual/video understanding, coding assistance, and multi-step agent work. Compared with Flash, it prioritizes answer quality and reasoning stability while keeping 1M context, built-in tools, and structured-output workflows; use Flash first for batch low-cost routes.",
+      "contextLabel": "1M",
+      "contextTokens": 1000000,
+      "pricing": {
+        "type": "token",
+        "input": 0.0628,
+        "output": 0.3764985599999999
+      },
+      "inputTypes": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Reasoning",
+        "Tool Use",
+        "Function Calling",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "mimo-v2.5-tts-voiceclone",
+      "name": "mimo-v2.5-tts-voiceclone",
+      "provider": "Xiaomi MiMo",
+      "providerId": 67,
+      "providerIcon": "XiaomiMiMo.Color",
+      "description": "Built for few-sample voice cloning, with stronger V2.5-series high-fidelity timbre reproduction, voice-character consistency, and cross-text generalization than MiMo V2 TTS. Compared with ElevenLabs, OpenAI TTS, and Azure Speech, it is well suited to Chinese character dubbing, short-video narration, podcast voice replication, and multilingual speech production that needs to preserve a target voice.",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "token",
+        "input": 0,
+        "output": 0
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "audio"
+      ],
+      "capabilities": [
+        "Multimodal Output"
+      ]
+    },
+    {
+      "id": "kimi-k2.7-code",
+      "name": "kimi-k2.7-code",
+      "provider": "Moonshot",
+      "providerId": 57,
+      "providerIcon": "Moonshot",
+      "description": "Built for long-context, multi-step tool use, and code/document workflows, with stronger engineering-task stability and context capacity than Kimi K2.6. Compared with Qwen, GLM, and DeepSeek, it is well suited to Chinese long-document analysis, project Q&A, and everyday agentic programming.",
+      "contextLabel": "256K",
+      "contextTokens": 256000,
+      "pricing": {
+        "type": "token",
+        "input": 0.975,
+        "output": 4.049955000000001,
+        "cacheRead": 0.195
+      },
+      "inputTypes": [
+        "text"
+      ],
+      "outputTypes": [
+        "text"
+      ],
+      "capabilities": [
+        "Tool Use",
+        "Function Calling",
+        "Structured Output",
+        "Long Context"
+      ]
+    },
+    {
+      "id": "gemini-3.5-flash-lite",
+      "name": "gemini-3.5-flash-lite",
+      "provider": "Google",
+      "providerId": 24,
+      "providerIcon": "Gemini.Color",
+      "description": "",
+      "contextLabel": null,
+      "contextTokens": 0,
+      "pricing": {
+        "type": "token",
+        "input": 0.3,
+        "output": 2.49999,
+        "cacheRead": 0.03
+      },
+      "inputTypes": [],
+      "outputTypes": [],
+      "capabilities": []
+    },
+    {
+      "id": "happyhorse-1.0-i2v",
+      "name": "happyhorse-1.0-i2v",
+      "provider": "Qwen",
+      "providerId": 37,
+      "providerIcon": "Qwen.Color",
+      "description": "Built for image-to-video, with a stronger audio-native workflow than 早期视频模型, generating dialogue, sound effects, and background music in one pass. Compared with Veo, Kling, and Runway, its differentiator is synchronized audiovisual generation and character-consistent workflows for short drama, ads, e-commerce, and brand marketing.",
+      "contextLabel": "8K",
+      "contextTokens": 8192,
+      "pricing": {
+        "type": "request",
+        "perRequest": 0.135
+      },
+      "inputTypes": [
+        "text",
+        "image"
+      ],
+      "outputTypes": [
+        "video"
+      ],
+      "capabilities": []
+    }
+  ]
+}
