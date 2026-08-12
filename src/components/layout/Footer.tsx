@@ -100,7 +100,7 @@ export function Footer() {
           <span>
             © {year} {siteConfig.name}. All Rights Reserved.
           </span>
-          <span className="inline-flex items-center gap-1.5 text-white/40">
+          {/* <span className="inline-flex items-center gap-1.5 text-white/40">
             Develop with
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +126,7 @@ export function Footer() {
             >
               Subhajit
             </a>
-          </span>
+          </span> */}
         </div>
       </Container>
     </footer>
